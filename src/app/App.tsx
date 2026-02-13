@@ -181,12 +181,12 @@ export default function App() {
                   "0 0 20px rgba(250,204,21,0.8), 0 0 40px rgba(250,204,21,0.4)",
               }}
             >
-              Lyon Pub Casino
+              Pub Roulette
             </h1>
             <Beer className="w-12 h-12 text-yellow-300 animate-pulse" />
           </div>
           <p className="text-2xl text-yellow-100">
-            🎰 Spin to discover your next pub! 🎰
+            🎰 Lance la roue pour savoir où tu vas boire ce soir 🎰
           </p>
         </div>
 
@@ -204,22 +204,20 @@ export default function App() {
             className="text-2xl px-16 py-8 bg-gradient-to-b from-yellow-400 to-yellow-600 hover:from-yellow-300 hover:to-yellow-500 text-gray-900 shadow-2xl border-4 border-yellow-500 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isSpinning
-              ? "🎰 SPINNING..."
+              ? "🎰 RIEN NE VA PLUS..."
               : hasSpun
-                ? "🎲 SPIN AGAIN!"
-                : "🎰 SPIN THE WHEEL!"}
+                ? "🎲 RELANCER!"
+                : "🎰 LANCER LA ROUE!"}
           </Button>
 
           {selectedPub && !isSpinning && (
             <div className="text-center space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-700 bg-gradient-to-b from-yellow-400 to-yellow-500 rounded-3xl p-8 shadow-2xl border-4 border-yellow-600">
               <div className="flex items-center justify-center gap-3">
                 <Sparkles className="w-10 h-10 text-red-600 animate-pulse" />
-                <h2 className="text-4xl text-gray-900">🎉 WINNER! 🎉</h2>
+                <h2 className="text-4xl text-gray-900">🎉 GAGNANT! 🎉</h2>
                 <Sparkles className="w-10 h-10 text-red-600 animate-pulse" />
               </div>
-              <p className="text-3xl text-gray-900">
-                Tonight, you're going to:
-              </p>
+              <p className="text-3xl text-gray-900">Ce soir, on va au:</p>
               <p className="text-5xl text-red-700 drop-shadow-lg">
                 {selectedPub.name}
               </p>
@@ -228,14 +226,16 @@ export default function App() {
                   📍 {selectedPub.address}
                 </p>
               )}
-              <p className="text-2xl text-gray-800">🍺 Enjoy your night! 🍺</p>
+              <p className="text-2xl text-gray-800">
+                🍺 Amuse-toi avec modération! 🍺
+              </p>
             </div>
           )}
         </div>
 
         <div className="mt-8 text-center">
           <p className="text-yellow-200 text-lg">
-            Featuring {lyonPubs.length} pubs open tonight at 7 PM in Lyon
+            {lyonPubs.length} sont ouvert ce soir! (ou pas...)
           </p>
         </div>
       </div>
