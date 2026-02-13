@@ -228,7 +228,11 @@ export default function App() {
               <p className="text-5xl text-red-700 drop-shadow-lg">
                 {selectedPub.name}
               </p>
-              <p className="text-2xl text-gray-800">📍 {selectedPub.address}</p>
+              {selectedPub.address !== "Address not available" && (
+                <p className="text-2xl text-gray-800">
+                  📍 {selectedPub.address}
+                </p>
+              )}
               <p className="text-2xl text-gray-800">🍺 Enjoy your night! 🍺</p>
             </div>
           )}
