@@ -1,0 +1,7018 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-02-13T13:48:14Z",
+    "timestamp_areas_base": "2026-01-22T23:45:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 35704180,
+      "lat": 45.7382022,
+      "lon": 4.7710909,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bistro Point-Barre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 75637333,
+      "lat": 45.7686724,
+      "lon": 4.8361996,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-12-12",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "12",
+        "contact:phone": "+33 4 78 72 51 68",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Du Griffon",
+        "contact:website": "https://flanruinpub.fr/",
+        "happy_hours": "Tu-Sa 18:00-20:00",
+        "name": "Le Flan' Ruin Pub",
+        "opening_hours": "Mo 18:00-00:00; Tu 18:00-01:00; We 18:00-02:00; Th-Fr 18:00-03:30; Sa 17:30-03:30; Su 16:00-01:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "81461138000019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 80078846,
+      "lat": 45.7561747,
+      "lon": 4.84108,
+      "tags": {
+        "amenity": "bar",
+        "brand": "Ninkasi",
+        "brewery": "Ninkasi Blonde;Ninkasi Blanche;Ninkasi Ambrée;Ninkasi Noire;Ninkasi Triple;Ninkasi French IPA;Ninkasi Rouge",
+        "contact:city": "Lyon 3eme Arrondissement",
+        "contact:housenumber": "2",
+        "contact:postcode": "69003",
+        "contact:street": "Place Antonin Jutard",
+        "cuisine": "burger",
+        "description": "Happy Hours : 17h00 - 20h00",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Ninkasi Guillotière",
+        "opening_hours": "Mo-Su 08:00-00:00, 00:00-01:00",
+        "operator": "Ninkasi",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:cryptocurrencies": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+33 4 78 95 04 95",
+        "ref:FR:SIRET": "41091384200093",
+        "smoking": "outside",
+        "survey:date": "2023-08-19",
+        "takeaway": "yes",
+        "website": "https://www.ninkasi.fr/lieux/guillotiere.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 80078857,
+      "lat": 45.7544636,
+      "lon": 4.8458006,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2023-02-13",
+        "name": "Bar de L'Eldorado",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "83052610900012",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 243510442,
+      "lat": 45.7577889,
+      "lon": 4.8353255,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "5",
+        "addr:postcode": "69002",
+        "addr:street": "Rue de la Barre",
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2025-11-05",
+        "check_date:opening_hours": "2024-02-24",
+        "internet_access": "no",
+        "name": "Le Monopol",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "82337124000016",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 252156011,
+      "lat": 45.7791637,
+      "lon": 4.8038231,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "name": "Barabaar",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "79386045300026"
+      }
+    },
+    {
+      "type": "node",
+      "id": 252333268,
+      "lat": 45.7593749,
+      "lon": 4.8274691,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bonaparte",
+        "opening_hours": "Mo 07:00-23:00; Tu-Fr 07:00-24:00; Sa-Su 09:00-24:00",
+        "phone": "+33 4 72 77 57 50",
+        "ref:FR:SIRET": "44042748200037",
+        "tobacco": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 254351764,
+      "lat": 45.7591394,
+      "lon": 4.8358796,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "2",
+        "contact:phone": "+33 4 26 28 39 59",
+        "contact:postcode": "69002",
+        "contact:street": "Place De L'Hopital",
+        "name": "Café Hôtel Dieu",
+        "opening_hours": "Mo 10:30-24:00; Tu-Sa 00:00-01:00, 10:30-24:00; Su 00:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "79926334800010",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 269700755,
+      "lat": 45.7660765,
+      "lon": 4.8310584,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "Carlsberg;Grimbergen;Grimbergen blanche",
+        "name": "La Pêcherie",
+        "ref:FR:SIRET": "43942902800012",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 270477183,
+      "lat": 45.7651659,
+      "lon": 4.8545684,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Rue Juliette Récamier",
+        "amenity": "bar",
+        "cocktails": "yes",
+        "contact:instagram": "pineappleroomlyon",
+        "contact:phone": "+33 9 74 64 10 34",
+        "cuisine": "tapas",
+        "drink:cocktail": "yes",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Pineapple Room",
+        "opening_hours": "Mo 18:00-00:30; Tu-Sa 17:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "98533425900019",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 270479921,
+      "lat": 45.7691134,
+      "lon": 4.8557919,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 6eme Arrondissement",
+        "contact:housenumber": "127",
+        "contact:phone": "+33 9 74 64 00 47",
+        "contact:postcode": "69006",
+        "contact:street": "Rue De Sèze",
+        "name": "Le Biniou Du 6",
+        "opening_hours": "We 18:00-23:59; Th 00:00-01:00, 18:00-23:59; Fr 00:00-02:00, 18:00-23:59; Sa 00:00-03:00, 18:00-23:59; Su 00:00-03:00",
+        "ref:FR:SIRET": "81099068900012",
+        "website": "https://www.privateaser.com/lieu/1692-le-biniou"
+      }
+    },
+    {
+      "type": "node",
+      "id": 270479936,
+      "lat": 45.7688022,
+      "lon": 4.856825,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 6eme Arrondissement",
+        "contact:housenumber": "18",
+        "contact:phone": "+33 6 64 10 40 74",
+        "contact:postcode": "69006",
+        "contact:street": "Boulevard Des Brotteaux",
+        "name": "Au Fût Et À Mesure Lyon",
+        "opening_hours": "Mo-Sa 17:00-01:00",
+        "ref:FR:SIRET": "91321231200015",
+        "website": "https://www.privateaser.com/lieu/2528-au-fut-et-a-mesure"
+      }
+    },
+    {
+      "type": "node",
+      "id": 270480846,
+      "lat": 45.767864,
+      "lon": 4.855429,
+      "tags": {
+        "addr:floor": "0",
+        "addr:housenumber": "56",
+        "addr:street": "Rue Ney",
+        "amenity": "bar",
+        "brewery": "no",
+        "check_date": "2025-03-17",
+        "contact:facebook": "https://www.instagram.com/you_cocktailbar?igsh=bDVpeGo5NzRhNXg0",
+        "internet_access": "no",
+        "level": "0",
+        "name": "You Cocktail Bar",
+        "opening_hours": "Mo-Su 17:00-01:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "ref:FR:SIRET": "98085952400012",
+        "smoking": "outside",
+        "source": "survey",
+        "website": "https://youfreebrand.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 271244788,
+      "lat": 45.7593345,
+      "lon": 4.8426163,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-02-09",
+        "indoor_seating": "yes",
+        "name": "Le Traquenard",
+        "old_name": "Brasserie de L'Enregistrement",
+        "opening_hours": "Mo-Sa 15:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+334 78 03 32 49",
+        "ref:FR:SIRET": "91181792200022",
+        "website": "https://letraquenard.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 281625008,
+      "lat": 45.7646419,
+      "lon": 4.8277995,
+      "tags": {
+        "addr:postcode": "69005",
+        "amenity": "bar",
+        "food": "tapas",
+        "name": "Cigale",
+        "opening_hours": "Tu-We 18:00-01:00; Th-Sa 18:00-03:00; Su 18:00-01:00",
+        "phone": "+33426170608",
+        "website": "https://www.cigalelyon.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 321524144,
+      "lat": 45.7510908,
+      "lon": 4.8264084,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/Pub-tapas-moove-107139477562699/",
+        "cuisine": "african;tapas",
+        "description": "Bar à tapas, restaurant africain.",
+        "name": "Tapas & Moove",
+        "phone": "+33 7 53 11 10 51",
+        "ref:FR:SIRET": "87951737300012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 464708130,
+      "lat": 45.6524184,
+      "lon": 4.9493766,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bel Air"
+      }
+    },
+    {
+      "type": "node",
+      "id": 468360674,
+      "lat": 45.6270858,
+      "lon": 4.9358239,
+      "tags": {
+        "amenity": "bar",
+        "name": "Café de la Mairie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 471790626,
+      "lat": 45.7510119,
+      "lon": 4.848466,
+      "tags": {
+        "amenity": "bar",
+        "delivery": "no",
+        "indoor_seating": "yes",
+        "name": "Octopus",
+        "opening_hours": "Mo-Fr 12:00-14:30, Mo,Tu 18:00-24:00, We-Sa 17:30-01:00",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "83224203600016",
+        "sport": "boules",
+        "takeaway": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 471990205,
+      "lat": 45.7798815,
+      "lon": 4.8349865,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Place Commandant Arnaud",
+        "amenity": "bar",
+        "check_date": "2025-08-19",
+        "check_date:opening_hours": "2025-08-19",
+        "description": "Bar à cocktail",
+        "indoor_seating": "yes",
+        "name": "Magic N' Bar",
+        "name:fr": "Magic N' Bar",
+        "opening_hours": "Tu-Th 16:30-23:00; Fr-Sa 16:30-23:30",
+        "outdoor_seating": "yes",
+        "phone": "+33 9 56 18 17 47",
+        "ref:FR:SIRET": "97759701200037",
+        "website": "https://magicnbar.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473541107,
+      "lat": 45.7598095,
+      "lon": 4.8479724,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Hex'a gones",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "80173796600029"
+      }
+    },
+    {
+      "type": "node",
+      "id": 506071060,
+      "lat": 45.7480206,
+      "lon": 4.8809734,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33478548039",
+        "indoor_seating": "yes",
+        "name": "Le Carrefour",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "45069223100019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 506877604,
+      "lat": 45.7484067,
+      "lon": 4.8807591,
+      "tags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 507002492,
+      "lat": 45.7312459,
+      "lon": 4.8301513,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-06-21",
+        "name": "Brasserie des 2 avenues",
+        "ref:FR:SIRET": "95650104300015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 507003385,
+      "lat": 45.7316168,
+      "lon": 4.8295495,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-06-21",
+        "name": "Brasserie Debourg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 518972471,
+      "lat": 45.7584065,
+      "lon": 4.8421061,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-04-19",
+        "cuisine": "tapas",
+        "name": "Les Assembleurs",
+        "opening_hours": "Mo-Fr 08:00-24:00, Sa 10:00-24:00",
+        "ref:FR:SIRET": "84860374200018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 560056686,
+      "lat": 45.8229509,
+      "lon": 4.873486,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Lunaire"
+      }
+    },
+    {
+      "type": "node",
+      "id": 560057835,
+      "lat": 45.8234414,
+      "lon": 4.8739666,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-01-07",
+        "name": "Café Course",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 560059199,
+      "lat": 45.8216768,
+      "lon": 4.872559,
+      "tags": {
+        "amenity": "bar",
+        "name": "Les Petits Bouchons"
+      }
+    },
+    {
+      "type": "node",
+      "id": 560059865,
+      "lat": 45.8253342,
+      "lon": 4.8736629,
+      "tags": {
+        "alt_name": "Café du centre",
+        "amenity": "bar",
+        "name": "Maison Gaelle",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 562634701,
+      "lat": 45.7463647,
+      "lon": 4.8636658,
+      "tags": {
+        "amenity": "bar",
+        "email": "bar@mjcmonplaisir.net",
+        "name": "Le 14",
+        "opening_hours": "Mo,Tu,Th,Fr 18:00-22:00; We 15:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 72 78 05 79",
+        "website": "https://www.mjcmonplaisir.net/modules/publisher/item.php?itemid=182",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 567859518,
+      "lat": 45.7318336,
+      "lon": 4.8300277,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Las Vegas",
+        "ref:FR:SIRET": "42507840900017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 627851836,
+      "lat": 45.7661807,
+      "lon": 4.8278596,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Apostrophe",
+        "phone": "+33 4 78 39 08 13",
+        "ref:FR:SIRET": "41321751400012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 690603960,
+      "lat": 45.758977,
+      "lon": 4.840036,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2023-10-28",
+        "contact:phone": "+33472619292",
+        "happy_hours": "Mo-Su 16:00-19:00",
+        "indoor_seating": "yes",
+        "live_music": "yes",
+        "name": "La Marquise",
+        "opening_hours": "Su-We 14:00-01:00; Th-Sa 14:00-05:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "45113196500019",
+        "website": "http://www.marquise.net",
+        "website:menu": "http://www.marquise.net/wp-content/uploads/2020/05/Carte-mobile-Marquise-1.pdf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 728647873,
+      "lat": 45.7627905,
+      "lon": 4.840564,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2024-07-04",
+        "description": "Anis et Houblon",
+        "happy_hours": "Mo-Su 17:00 - 21:00",
+        "name": "Berzingue",
+        "opening_date": "2024-04-04",
+        "opening_hours": "Mo-Su 15:00-01:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 804132769,
+      "lat": 45.6735219,
+      "lon": 4.7537675,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Place des Terreaux",
+        "amenity": "bar",
+        "name": "Aromatica",
+        "phone": "+33 4 78 38 88 09",
+        "website": "https://www.facebook.com/Aromatica-Brignais-110687914760762/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830263191,
+      "lat": 45.7387676,
+      "lon": 4.8146175,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2022-11-20",
+        "contact:email": "contact@selcius.fr",
+        "contact:housenumber": "43",
+        "contact:phone": "+33 4 78 92 87 87",
+        "contact:postcode": "69002",
+        "contact:street": "Quai Rambaud",
+        "contact:website": "http://www.selcius.fr",
+        "name": "Selcius",
+        "opening_hours": "Mo-Sa 11:00-14:30, Su 11:00-17:00, Mo-We 17:30-01:00, Th 17:30-02:00, Fr,Sa 17:30-04:00",
+        "ref:FR:SIRET": "75354184600014",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 864608390,
+      "lat": 45.7533427,
+      "lon": 4.8918774,
+      "tags": {
+        "amenity": "bar",
+        "name": "Café des Sports",
+        "opening_hours": "Mo-Sa 07:00-19:00; Su,PH 07:30-19:00",
+        "outdoor_seating": "sidewalk",
+        "ref:FR:SIRET": "83157213600016",
+        "source": "Local survey 14 Aug 2010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1080539458,
+      "lat": 45.876883,
+      "lon": 4.8351613,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'escale",
+        "ref:FR:SIRET": "84191403900018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1242371161,
+      "lat": 45.7680644,
+      "lon": 4.8880596,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-10-25",
+        "indoor_seating": "yes",
+        "name": "Le Stadium",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "48496599100017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1291616058,
+      "lat": 45.769638,
+      "lon": 4.8251857,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "harassment_prevention": "ask_angela",
+        "name": "La Corniche",
+        "opening_hours": "Mo-Th 16:30-23:30, Fr 16:30-01:00, Sa 16:00-01:00, Su 16:00-22:00",
+        "smoking": "outside",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1305990032,
+      "lat": 45.7574454,
+      "lon": 4.7259119,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le sorbier"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1336704419,
+      "lat": 45.7529652,
+      "lon": 4.8546529,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-04-30",
+        "indoor_seating": "yes",
+        "name": "Le Grand Café Neuf",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "sidewalk",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+33 4 78 60 58 14",
+        "ref:FR:SIRET": "34488436600016",
+        "smoking": "outside",
+        "wheelchair": "yes",
+        "wikimedia_commons": "File:Le Grand Café Neuf - Félix-Faure (Lyon).jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1385676980,
+      "lat": 45.7275064,
+      "lon": 4.8836954,
+      "tags": {
+        "amenity": "bar",
+        "name": "La porte au prince"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1395813263,
+      "lat": 45.7374304,
+      "lon": 4.9165752,
+      "tags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1425529913,
+      "lat": 45.7641317,
+      "lon": 4.8270948,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar musée Gadagne"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1436120876,
+      "lat": 45.8764159,
+      "lon": 4.8388893,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Comptoirs & Bouchons",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445056746,
+      "lat": 45.7504269,
+      "lon": 4.8465891,
+      "tags": {
+        "addr:housenumber": "91",
+        "addr:street": "Rue Montesquieu",
+        "amenity": "bar",
+        "email": "latelierdescanulars@mailoo.org",
+        "name": "L'atelier des canulars",
+        "ref:FR:SIRET": "47867273600012",
+        "website": "https://latelierdescanulars.wordpress.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1455348654,
+      "lat": 45.7756072,
+      "lon": 4.8347299,
+      "tags": {
+        "amenity": "bar",
+        "name": "Cochon iodé",
+        "opening_hours": "We-Fr 12:00-14:00,17:30-23:00; Sa 10:30-16:00,18:00-23:00; Su 10:30-15:00",
+        "ref:FR:SIRET": "89966591300021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1483238584,
+      "lat": 45.7655291,
+      "lon": 4.8276435,
+      "tags": {
+        "amenity": "bar",
+        "name": "Jack's Bar",
+        "opening_hours": "PH,Mo-Su 17:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "48973764300028"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1542470704,
+      "lat": 45.7680588,
+      "lon": 4.8008057,
+      "tags": {
+        "amenity": "bar",
+        "name": "Nakamal",
+        "note": "The club is open until 1am only if there is a concert.",
+        "opening_hours": "Mo-Fr 10:00-21:00; Sa 14:00-21:00; Su off",
+        "phone": "+33 4 78 83 20 45",
+        "website": "http://nakamal.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1594873721,
+      "lat": 45.7677776,
+      "lon": 4.8332585,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-05-08",
+        "name": "Crazy Dog",
+        "opening_hours": "Mo-Su 09:00-01:00",
+        "ref:FR:SIRET": "83000281200022"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1597724224,
+      "lat": 45.7119331,
+      "lon": 4.8552704,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Escale"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1680182407,
+      "lat": 45.751274,
+      "lon": 4.8449204,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "board_games": "yes",
+        "check_date": "2024-07-12",
+        "contact:housenumber": "80",
+        "contact:street": "Rue Montesquieu",
+        "cuisine": "french",
+        "description": "Bar à jeux",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "contact@atenium.fr",
+        "indoor_seating": "yes",
+        "name": "L'Atenium",
+        "opening_hours": "Mo-Fr 17:00-00:30; Sa 15:00-00:30; Su 11:00-00:30",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "81913509600017",
+        "smoking": "no",
+        "website": "http://atenium.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1700611792,
+      "lat": 45.778074,
+      "lon": 4.8346675,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-10-13",
+        "indoor_seating": "yes",
+        "name": "Café de la Soie",
+        "opening_hours": "Mo-Sa 12:00-14:00, Tu-Sa 19:00-21:15",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83045373400022",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1704079358,
+      "lat": 45.7693619,
+      "lon": 4.8315124,
+      "tags": {
+        "amenity": "bar",
+        "cocktails": "yes",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "7",
+        "contact:phone": "+33 9 74 64 03 17",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Terme",
+        "name": "Pélican",
+        "opening_hours": "Mo 00:00-01:00; Tu 18:30-23:59; We-Su 00:00-01:00, 18:30-23:59",
+        "website": "https://www.pelicanlyon.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1718384169,
+      "lat": 45.632353,
+      "lon": 4.4552793,
+      "tags": {
+        "addr:city": "Saint-Symphorien-sur-Coise",
+        "addr:housenumber": "19",
+        "addr:postcode": "69590",
+        "addr:street": "Place du Marché",
+        "amenity": "bar",
+        "brewery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "L'ixo café",
+        "phone": "+33478190393",
+        "ref:FR:SIRET": "52358339100017",
+        "tobacco": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1718384612,
+      "lat": 45.6324242,
+      "lon": 4.4549721,
+      "tags": {
+        "addr:city": "Saint-Symphorien-sur-Coise",
+        "addr:housenumber": "64",
+        "addr:postcode": "69590",
+        "addr:street": "Place du Marché",
+        "amenity": "bar",
+        "email": "cavelabelleepoque@outlook.fr",
+        "facebook": "https://www.facebook.com/people/Cave-La-Belle-%C3%89poque/100094164639847/",
+        "name": "La Belle époque",
+        "phone": "+33426554671",
+        "shop": "wine",
+        "terrace": "yes",
+        "was:amenity": "bar",
+        "was:name": "Le P'tit Bistrot",
+        "wifi": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1720992116,
+      "lat": 45.6320215,
+      "lon": 4.4568115,
+      "tags": {
+        "addr:city": "Saint-Symphorien-sur-Coise",
+        "addr:housenumber": "51",
+        "addr:postcode": "69590",
+        "addr:street": "Place des Terreaux",
+        "amenity": "bar",
+        "name": "Brasserie des Terreaux",
+        "phone": "+33478519480",
+        "ref:FR:SIRET": "80025301500013",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1790677738,
+      "lat": 45.7535968,
+      "lon": 4.830439,
+      "tags": {
+        "amenity": "bar",
+        "name": "Café des Antiquaires",
+        "ref:FR:SIRET": "83356971800012",
+        "survey:date": "2023-08-27",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1790677986,
+      "lat": 45.754348,
+      "lon": 4.83071,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Linotte",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "84855501700013",
+        "survey:date": "2023-03-12"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1823019662,
+      "lat": 45.7745827,
+      "lon": 4.8309974,
+      "tags": {
+        "amenity": "bar",
+        "name": "Voyageurs",
+        "opening_hours": "Mo-Sa 07:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837442349,
+      "lat": 45.7649955,
+      "lon": 4.9013781,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Cusset",
+        "ref:FR:SIRET": "80842479000018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1866962215,
+      "lat": 45.7793897,
+      "lon": 4.8344802,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Le petit coin",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83481530000019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1868899994,
+      "lat": 45.7644303,
+      "lon": 4.832536,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Le Chabada Café",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "79463554000014",
+        "survey:date": "2022-03-14"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1868900890,
+      "lat": 45.7660636,
+      "lon": 4.8317048,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "20",
+        "contact:phone": "+33478308261",
+        "contact:street": "Rue Lanterne",
+        "lgbtq": "primary",
+        "name": "Broc'Bar",
+        "ref:FR:SIRET": "44208516300024",
+        "website": "https://brocbar.shop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1870666339,
+      "lat": 45.8450992,
+      "lon": 4.8544166,
+      "tags": {
+        "addr:city": "Fontaines-Saint-Martin",
+        "amenity": "bar",
+        "name": "Le Val André",
+        "opening_hours": "Mo-Fr 07:00-12:30; 15:00-19:00, Sa-Su 07:30-12:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1871671180,
+      "lat": 45.7646686,
+      "lon": 4.8346335,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon",
+        "contact:housenumber": "31 bis",
+        "contact:postcode": "69002",
+        "contact:street": "Rue du Président Édouard Herriot",
+        "name": "Cap 6"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1944729964,
+      "lat": 45.7763278,
+      "lon": 4.5546348,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Tabac Chez Denise"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1975495611,
+      "lat": 45.7683105,
+      "lon": 4.8290173,
+      "tags": {
+        "amenity": "bar",
+        "name": "Soda Bar",
+        "ref:FR:SIRET": "49228682800016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1975495621,
+      "lat": 45.767922,
+      "lon": 4.8306351,
+      "tags": {
+        "addr:postcode": "69001",
+        "amenity": "bar",
+        "name": "L'Antiquaire",
+        "opening_hours": "Su-We 18:30-01:00; Th-Sa 18:30-03:00",
+        "ref:FR:SIRET": "52424854900015",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2014081280,
+      "lat": 45.7649541,
+      "lon": 4.8434918,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-10-21",
+        "check_date:opening_hours": "2024-10-21",
+        "name": "Sauf Imprévu",
+        "opening_hours": "Mo-We 10:00-23:00; Th,Fr 10:00-24:00",
+        "ref:FR:SIRET": "91371698100018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2017222986,
+      "lat": 45.7750631,
+      "lon": 4.8052187,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-02-01",
+        "check_date:opening_hours": "2025-02-01",
+        "check_date:smoking": "2025-02-01",
+        "name": "Au Grand Paris",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa,Su 07:30-19:00",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2019632297,
+      "lat": 45.7768298,
+      "lon": 4.8334846,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-10-13",
+        "name": "Le Bistrot fait sa broc'",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2024995955,
+      "lat": 45.7530545,
+      "lon": 4.8700406,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-01-06",
+        "name": "Le Petit Bar",
+        "ref:FR:SIRET": "45327096900026",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2026692704,
+      "lat": 45.8359048,
+      "lon": 4.6171636,
+      "tags": {
+        "amenity": "bar",
+        "name": "Les Gourmands Disent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2077013410,
+      "lat": 45.754752,
+      "lon": 4.8431398,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-09-12",
+        "contact:phone": "+33 9 52958041",
+        "contact:website": "https://fr-fr.facebook.com/La-Faute-aux-Ours-208707902544699/",
+        "cuisine": "french",
+        "internet_access": "no",
+        "name": "La Faute aux Ours",
+        "opening_hours": "Tu-Th 18:00-01:00, Fr-Sa 18:00-02:00",
+        "outdoor_seating": "yes",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "ref:FR:SIRET": "53389134700015",
+        "smoking": "outside",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2077022276,
+      "lat": 45.7606057,
+      "lon": 4.8402604,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:country": "FR",
+        "addr:housenumber": "11",
+        "addr:postcode": "69003",
+        "addr:street": "Quai Victor Augagneur",
+        "amenity": "bar",
+        "brewery": "La Veuve Noire",
+        "internet_access": "no",
+        "name": "La Passagère",
+        "opening_hours": "Mo-Sa 14:00-03:00; Su 14:00-02:00",
+        "source": "Survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2077022277,
+      "lat": 45.7610785,
+      "lon": 4.8403229,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Bébé",
+        "outdoor_seating": "yes",
+        "start_date": "2002"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2077032484,
+      "lat": 45.7541332,
+      "lon": 4.8394258,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-04-30",
+        "contact:housenumber": "3",
+        "contact:phone": "+33 9 52 83 07 50",
+        "contact:website": "https://fr-fr.facebook.com/pages/Gonzo-Bar-Lyon/196374213736398",
+        "description": "Bar à cocktails",
+        "name": "Sauvage",
+        "opening_hours": "Mo-Sa 18:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83105601500017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2087100501,
+      "lat": 45.7556397,
+      "lon": 4.8425979,
+      "tags": {
+        "amenity": "bar",
+        "name": "Félix Café",
+        "ref:FR:SIRET": "82201493200013",
+        "survey:date": "2023-08-19"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2107157552,
+      "lat": 45.7664433,
+      "lon": 4.8273998,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "leffe;chouffe;chimay;tripel_karmeliet",
+        "name": "La Mi Graine",
+        "phone": "+33 4 78 27 73 88",
+        "ref:FR:SIRET": "38431896000018",
+        "website": "https://fr-fr.facebook.com/barlamigraine/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2108465475,
+      "lat": 45.7560185,
+      "lon": 4.8415262,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "chouffe",
+        "contact:housenumber": "3",
+        "internet_access": "no",
+        "name": "Le Gambetta",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "41276652900017",
+        "survey:date": "2023-08-19"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2108929695,
+      "lat": 45.7595534,
+      "lon": 4.8400976,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:postcode": "69003",
+        "amenity": "bar",
+        "capacity": "650",
+        "contact:facebook": "plouf.bateaumousse",
+        "contact:instagram": "plouf_bateaumousse",
+        "indoor_seating": "yes",
+        "name": "Plouf Bateau Mouse",
+        "old_name": "The Boat",
+        "opening_hours": "Su-We 16:00-03:00; Th-Sa 16:00-05:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83499841100013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2109818703,
+      "lat": 45.7546058,
+      "lon": 4.8420521,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Angle d'Or"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2119157336,
+      "lat": 45.7704846,
+      "lon": 4.8332759,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bec de Jazz"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2161061379,
+      "lat": 45.7719883,
+      "lon": 4.8902076,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Étoile Bleue"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2183058823,
+      "lat": 45.7537657,
+      "lon": 4.840532,
+      "tags": {
+        "amenity": "bar",
+        "name": "Olmé",
+        "note": "Bar à vin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2183058824,
+      "lat": 45.7537039,
+      "lon": 4.8402826,
+      "tags": {
+        "amenity": "bar",
+        "name": "Blue Monday",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "93401860700028",
+        "smoking": "outside",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2183069770,
+      "lat": 45.7518642,
+      "lon": 4.8401552,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Le Chatelet",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83770396600015",
+        "survey:date": "2020-11-16"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2183098964,
+      "lat": 45.749447,
+      "lon": 4.8387511,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "contact:facebook": "https://www.facebook.com/lecommerce07/",
+        "contact:instagram": "https://www.instagram.com/le_commerce_07",
+        "cuisine": "french",
+        "email": "lecommerce07@gmail.com",
+        "name": "Le Commerce",
+        "opening_hours": "Mo-Fr 08:00-01:00; Sa-Su 15:00-01:00",
+        "phone": "+33 4 28 29 89 20",
+        "ref:FR:SIRET": "83993112800020"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2183114225,
+      "lat": 45.7469306,
+      "lon": 4.8370236,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Pipe",
+        "opening_hours": "PH,Mo-Su 05:45-24:00",
+        "smoking": "outside",
+        "tobacco": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2188469214,
+      "lat": 45.7670256,
+      "lon": 4.8545274,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Le Casse vins",
+        "opening_hours": "Tu-Sa 17:00-24:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2192967854,
+      "lat": 45.7484333,
+      "lon": 4.854575,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-07-02",
+        "indoor_seating": "yes",
+        "name": "Alma",
+        "opening_hours": "Tu-Sa 17:00-24:00; PH closed",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "85153249900015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2193018390,
+      "lat": 45.7577692,
+      "lon": 4.8411711,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-05-05",
+        "contact:city": "Lyon 3eme Arrondissement",
+        "contact:housenumber": "2",
+        "contact:phone": "+33 6 29 39 04 26",
+        "contact:postcode": "69003",
+        "contact:street": "Rue Chaponnay",
+        "name": "Malto",
+        "opening_hours": "Tu-We 17:00-23:00; Th 17:00-23:59; Fr-Sa 00:00-01:00, 17:00-23:59; Su 00:00-01:00",
+        "website": "https://www.privateaser.com/lieu/43629-malto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2194222699,
+      "lat": 45.7497399,
+      "lon": 4.8438736,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-09-19",
+        "contact:instagram": "https://www.instagram.com/l_overdrive_bar/",
+        "name": "L'Overdrive",
+        "opening_hours": "Mo-Su 16:00-01:00",
+        "ref:FR:SIRET": "98282078900013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2199727993,
+      "lat": 45.748268,
+      "lon": 4.8433461,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "email": "afkbar.contact@gmail.com",
+        "name": "AFK Bar",
+        "opening_hours": "Mo-Su 16:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 26 28 14 41",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2204896173,
+      "lat": 45.7539604,
+      "lon": 4.8428911,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "11",
+        "addr:postcode": "69007",
+        "addr:street": "Rue des Trois Rois",
+        "amenity": "bar",
+        "name": "La Baignoire",
+        "opening_hours": "Tu-Th 18:00-01:00; Fr-Sa 18:00-02:30",
+        "ref:FR:SIRET": "42900161300018",
+        "url": "https://barlabaignoire.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2204906217,
+      "lat": 45.752247,
+      "lon": 4.8440337,
+      "tags": {
+        "amenity": "bar",
+        "name": "Mostaganem",
+        "opening_hours": "\"pas d'horaires affichés\"",
+        "ref:FR:SIRET": "38186765400018",
+        "survey:date": "2024-03-23",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2204929087,
+      "lat": 45.7514305,
+      "lon": 4.844894,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-11-15",
+        "check_date:opening_hours": "2025-11-15",
+        "indoor_seating": "yes",
+        "name": "Chez Michel",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-13:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "42054270600015",
+        "smoking": "outside",
+        "tobacco": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2204957491,
+      "lat": 45.7508988,
+      "lon": 4.8455368,
+      "tags": {
+        "amenity": "bar",
+        "contact:email": "contact.lokace@gmail.com",
+        "contact:instagram": "https://www.instagram.com/lokacebar/",
+        "contact:phone": "+334 37 27 08 12",
+        "indoor_seating": "yes",
+        "name": "Lokace",
+        "opening_hours": "Mo-Sa 11:00-01:00; Su 10:00-19:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "80109105900023",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2205019199,
+      "lat": 45.7510651,
+      "lon": 4.8426149,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar des Artistes",
+        "ref:FR:SIRET": "34519690100028",
+        "survey:date": "2024-03-23"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2205356151,
+      "lat": 45.7918112,
+      "lon": 4.8378709,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-11-09",
+        "indoor_seating": "yes",
+        "name": "Chez Guevara",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2205360292,
+      "lat": 45.7918873,
+      "lon": 4.8376896,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-11-09",
+        "indoor_seating": "yes",
+        "name": "Café des sports",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "83115266500012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2211606956,
+      "lat": 45.756932,
+      "lon": 4.8539112,
+      "tags": {
+        "amenity": "bar",
+        "name": "The PXL tavern",
+        "ref:FR:SIRET": "93241947600027"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2222394679,
+      "lat": 45.7617005,
+      "lon": 4.8323102,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-09-18",
+        "contact:housenumber": "8",
+        "cuisine": "mexican",
+        "diet:vegan": "limited",
+        "food": "yes",
+        "food:guacamole": "yes",
+        "food:nachos": "yes",
+        "food:tacos": "yes",
+        "name": "Moneda",
+        "opening_hours": "Mo-Sa 17:30-00:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "94789577700037",
+        "website": "https://moneda.fr",
+        "website:menu": "https://moneda.fr/pages/notre-carte-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2225090603,
+      "lat": 45.551919,
+      "lon": 4.7155188,
+      "tags": {
+        "amenity": "bar",
+        "name": "Mille&Zim",
+        "phone": "+33 4 26 01 63 74"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2271667734,
+      "lat": 45.7638225,
+      "lon": 4.864709,
+      "tags": {
+        "amenity": "bar",
+        "name": "The black pearl tavern",
+        "source": "Grand Lyon - 10/2011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2273314756,
+      "lat": 45.7532946,
+      "lon": 4.8414235,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-12-08",
+        "name": "Kigali Life Bar",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2273316602,
+      "lat": 45.7538624,
+      "lon": 4.8420421,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Tanger",
+        "note": "Salon de thé sans alcool",
+        "ref:FR:SIRET": "51857213600019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2283821175,
+      "lat": 45.7686593,
+      "lon": 4.8356734,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Barberousse",
+        "opening_hours": "Tu-Sa 21:00-03:00",
+        "phone": "+33 4 72 00 80 53",
+        "ref:FR:SIRET": "44965102500024",
+        "website": "http://www.barberousse.com/ville/lyon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2284359913,
+      "lat": 45.7549647,
+      "lon": 4.8450213,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bistrot Royal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2294482255,
+      "lat": 45.7740878,
+      "lon": 4.7803491,
+      "tags": {
+        "amenity": "bar",
+        "name": "Erdami"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2294482256,
+      "lat": 45.774412,
+      "lon": 4.779801,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-07-16",
+        "name": "L'Écu-Lys"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2297010982,
+      "lat": 45.7734283,
+      "lon": 4.8675504,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-09-06",
+        "check_date:opening_hours": "2025-09-06",
+        "indoor_seating": "yes",
+        "name": "Bar Le Wilson",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2297038060,
+      "lat": 45.7731651,
+      "lon": 4.8667944,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Yani - Bar",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2299537084,
+      "lat": 45.7730669,
+      "lon": 4.8664263,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2025-05-15",
+        "check_date:opening_hours": "2024-09-15",
+        "indoor_seating": "yes",
+        "name": "Le Charpenne",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "95108410200015",
+        "shop": "newsagent"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2311064203,
+      "lat": 45.7744518,
+      "lon": 4.8679866,
+      "tags": {
+        "addr:city": "Villeurbanne",
+        "addr:country": "FR",
+        "addr:housenumber": "59",
+        "addr:postcode": "69100",
+        "addr:street": "Avenue Condorcet",
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-04-29",
+        "indoor_seating": "yes",
+        "name": "Bar des amis",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 89 75 80",
+        "ref:FR:SIRET": "48259467800021",
+        "toilets": "yes",
+        "toilets:wheelchair": "limited",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2322632624,
+      "lat": 45.7503001,
+      "lon": 4.8570105,
+      "tags": {
+        "amenity": "bar",
+        "cuisine": "french",
+        "indoor_seating": "yes",
+        "name": "Les Assembleurs",
+        "opening_hours": "Mo-Sa 8:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2356829447,
+      "lat": 45.7689426,
+      "lon": 4.8324435,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-10-15",
+        "check_date:opening_hours": "2025-10-15",
+        "contact:housenumber": "2",
+        "contact:street": "Rue des Capucins",
+        "description": "Bar à vins",
+        "indoor_seating": "yes",
+        "lgbtq": "welcome",
+        "name": "La Madone",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83370492700015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2356855440,
+      "lat": 45.7645798,
+      "lon": 4.8407664,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33627021538",
+        "harassment_prevention": "ask_angela",
+        "name": "La Barge",
+        "opening_hours": "Mo-Fr 15:00-24:30; Sa 11:00-00:30; Su 11:00-22:00; Oct 15-Feb 15 Off",
+        "ref:FR:SIRET": "92183024600010",
+        "reservation": "yes",
+        "website": "https://labarge-lyon.fr",
+        "website:menu": "https://labarge-lyon.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2408886042,
+      "lat": 45.7650984,
+      "lon": 4.6606234,
+      "tags": {
+        "addr:city": "Pollionnay",
+        "addr:housenumber": "6",
+        "addr:postcode": "69290",
+        "addr:street": "Route de la Croix du Ban",
+        "amenity": "bar",
+        "name": "Le Pot Lyonnais",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 48 18 39"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2408898643,
+      "lat": 45.8349953,
+      "lon": 4.8465367,
+      "tags": {
+        "amenity": "bar",
+        "name": "Ô Fontaines Café",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2454677198,
+      "lat": 45.8975059,
+      "lon": 4.8417136,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Place de Verdun",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/people/Caf%C3%A9-du-Parc/100065063617723/",
+        "name": "Café du Parc",
+        "phone": "+33478728965"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2457712090,
+      "lat": 45.767528,
+      "lon": 4.8306667,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "26",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Hippolyte Flandrin",
+        "cuisine": "Bar",
+        "name": "Skybar",
+        "opening_hours": "Tu-Sa 16:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2464984391,
+      "lat": 45.778912,
+      "lon": 4.8918032,
+      "tags": {
+        "amenity": "bar",
+        "name": "Café de la Paix",
+        "ref:FR:SIRET": "52778329400012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2470725718,
+      "lat": 45.7683124,
+      "lon": 4.8291032,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Bouteillerie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2470725721,
+      "lat": 45.768323,
+      "lon": 4.8293006,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bistro",
+        "ref:FR:SIRET": "81844308700015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2470725722,
+      "lat": 45.7683221,
+      "lon": 4.8285288,
+      "tags": {
+        "amenity": "bar",
+        "contact:instagram": "@pepouze.lyon",
+        "name": "Pépouze",
+        "old_name": "Le Potager des Halles",
+        "opening_hours": "Mo,Tu 08:00-00:00; We-Sa 08:00-01:00; Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+33422910533",
+        "ref:FR:SIRET": "94027223000019",
+        "website": "https://atypee.wixsite.com/pepouze"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2476993826,
+      "lat": 45.7536108,
+      "lon": 4.8326653,
+      "tags": {
+        "amenity": "bar",
+        "name": "Au Bon Cru",
+        "ref:FR:SIRET": "38051954600010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2476993846,
+      "lat": 45.7545637,
+      "lon": 4.8267318,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "Le-Cardiff-Lyon-108407294187065",
+        "email": "regnault.willy@free.fr",
+        "name": "Le Cardiff",
+        "phone": "+33685808285",
+        "ref:FR:SIRET": "87969281200016",
+        "survey:date": "2020-05-26",
+        "website": "https://cardiff.jmbistrot.fr/menus/20928/37252"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2477064560,
+      "lat": 45.7587665,
+      "lon": 4.8260433,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Rue du Doyenné",
+        "alt_name": "Girl's Bar",
+        "amenity": "bar",
+        "check_date": "2023-07-12",
+        "name": "Strip Club",
+        "old:name": "Dilemme Club",
+        "ref:FR:SIRET": "47941722200037"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2477064566,
+      "lat": 45.7646449,
+      "lon": 4.8281015,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2025-03-12",
+        "name": "Big White",
+        "opening_hours": "Tu-Sa 17:00-01:00",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "53870797700012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2477249063,
+      "lat": 45.7661526,
+      "lon": 4.8276586,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-03-08",
+        "name": "La Cave des Voyageurs",
+        "ref:FR:SIRET": "41960828600011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2477249065,
+      "lat": 45.7663243,
+      "lon": 4.8271697,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bis'Corner",
+        "ref:FR:SIRET": "97996903700014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2502529817,
+      "lat": 45.7683993,
+      "lon": 4.8348396,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-04-09",
+        "name": "Ayers Rock",
+        "opening_hours": "Mo,We-Sa 20:00-06:00, Tu 20:00-04:00",
+        "ref:FR:SIRET": "85058905200016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2502529820,
+      "lat": 45.7683977,
+      "lon": 4.8349501,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-08-04",
+        "name": "Hell's Kitchen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2502529853,
+      "lat": 45.7695669,
+      "lon": 4.8372671,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-06-04",
+        "cocktails": "yes",
+        "contact:phone": "+33 9 74 64 18 90",
+        "level": "0",
+        "microbrewery": "no",
+        "name": "The Monkey Club",
+        "opening_hours": "Tu-Th 18:00-01:00, Fr,Sa 18:00-03:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "53948869200010",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2504142128,
+      "lat": 45.7601861,
+      "lon": 4.8316488,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-07-28",
+        "check_date:opening_hours": "2024-07-28",
+        "description": "Bar & Food",
+        "lgbtq": "welcome",
+        "name": "La Loge",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "83116714300021",
+        "website": "https://la-loge-bar-food-restaurant-lyon.eatbu.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2506478200,
+      "lat": 45.695136,
+      "lon": 4.793517,
+      "tags": {
+        "amenity": "bar",
+        "name": "Brasserie de la marine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2506484628,
+      "lat": 45.6960712,
+      "lon": 4.7939437,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Tabac de la poste"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2560866769,
+      "lat": 45.7516727,
+      "lon": 4.82844,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2025-12-18",
+        "check_date:opening_hours": "2025-12-18",
+        "cuisine": "french",
+        "indoor_seating": "yes",
+        "name": "Viktor",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "41817276300025",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2560866778,
+      "lat": 45.7518753,
+      "lon": 4.829457,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Marco Polo",
+        "ref:FR:SIRET": "80008290100011",
+        "survey:date": "2023-08-27"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2600475989,
+      "lat": 45.7532805,
+      "lon": 4.8411481,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Pacha de Lyon",
+        "ref:FR:SIRET": "45068660500012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2600475994,
+      "lat": 45.7530292,
+      "lon": 4.8419051,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Mini Bar",
+        "opening_hours": "\"Privatisations uniquement\"",
+        "ref:FR:SIRET": "81870265600021",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2600858728,
+      "lat": 45.7498805,
+      "lon": 4.8525511,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes;saint_stefanus",
+        "check_date": "2025-08-27",
+        "cuisine": "french",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "Jungle",
+        "opening_hours": "Tu-We 17:30-23:00; Th-Sa 17:30-01:00; Su 11:00-14:30,17:30-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+33 4 87 61 01 69",
+        "ref:FR:SIRET": "49081765700011",
+        "website": "https://junglelyon.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2600858740,
+      "lat": 45.7506237,
+      "lon": 4.8478935,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-07-12",
+        "contact:facebook": "Lyonnais-kfe-578956872198545",
+        "email": "lyonnaiskfe@orange.fr",
+        "indoor_seating": "yes",
+        "name": "Lyonnais K'Fé",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 27 82 96 47",
+        "ref:FR:SIRET": "52036626100011",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2600872707,
+      "lat": 45.7454855,
+      "lon": 4.8455058,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "82",
+        "addr:postcode": "69007",
+        "addr:street": "Rue Jaboulay",
+        "amenity": "bar",
+        "brewery": "various",
+        "name": "Le Remède",
+        "opening_hours": "Tu-Sa 15:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 7 56 92 33 96"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2623025621,
+      "lat": 45.7649716,
+      "lon": 4.837935,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "22",
+        "contact:phone": "+33 6 99 53 10 50",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Gentil",
+        "description": "Bar, tapas , cocktails, vins",
+        "name": "Quai22",
+        "opening_hours": "Tu 17:00-23:59; We-Sa 00:00-01:00, 17:00-23:59; Su 00:00-01:00",
+        "ref:FR:SIRET": "87986931100024",
+        "website": "https://www.privateaser.com/lieu/43477-le-quai-22"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2663770279,
+      "lat": 45.7546419,
+      "lon": 4.8665421,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-10-18",
+        "check_date:opening_hours": "2023-10-12",
+        "name": "Bar des Deux Avenues",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "42175149600017",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2680176141,
+      "lat": 45.7882685,
+      "lon": 4.8127363,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 9eme Arrondissement",
+        "contact:housenumber": "8",
+        "contact:phone": "+33 4 69 84 20 81",
+        "contact:postcode": "69009",
+        "contact:street": "Rue De La Navigation",
+        "cuisine": "burger",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Ninkasi Vaise Industrie",
+        "opening_hours": "We-Sa 10:30-01:00; Su-Tu 10:30-00:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "41091384200028",
+        "website": "https://www.ninkasi.fr/lieux/vaise.html",
+        "wikidata": "Q64959021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2772371166,
+      "lat": 45.7632762,
+      "lon": 4.8520533,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-04-17",
+        "contact:city": "Lyon 3eme Arrondissement",
+        "contact:housenumber": "131",
+        "contact:phone": "+33 4 78 60 65 55",
+        "contact:postcode": "69003",
+        "contact:street": "Rue Moncey",
+        "name": "Le City",
+        "opening_hours": "Mo,Tu 11:30-15:00; We-Sa 11:30-15:00,19:00-22:00",
+        "ref:FR:SIRET": "42244518900026",
+        "website": "https://www.privateaser.com/lieu/48108-le-city",
+        "wikidata": "Q62587981",
+        "wikimedia_commons": "File:Restaurant Pepperoni, rue Moncey (Lyon).jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2900509366,
+      "lat": 45.7728396,
+      "lon": 4.8441256,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Comptoir du 6ème",
+        "ref:FR:SIRET": "80330270200011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2913786814,
+      "lat": 45.7493492,
+      "lon": 4.8351744,
+      "tags": {
+        "amenity": "bar",
+        "contact:email": "contact@house-of-bears.fr",
+        "contact:facebook": "https://www.facebook.com/house.of.bears.lyon",
+        "contact:instagram": "https://www.instagram.com/house.of.bears.lyon/",
+        "contact:phone": "+33766754139",
+        "contact:website": "https://www.house-of-bears.fr/",
+        "indoor_seating": "yes",
+        "name": "House of Bears",
+        "opening_hours": "Mo-Sa 13:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "98189101300014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2987542168,
+      "lat": 45.7489581,
+      "lon": 4.8482613,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Café Saint-Louis",
+        "opening_hours": "Mo 16:00-22:00; Su 07:00-14:00; Tu-Sa 07:00-22:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2987542169,
+      "lat": 45.7490843,
+      "lon": 4.8483197,
+      "tags": {
+        "amenity": "bar",
+        "description": "PMU",
+        "name": "Café de la Source",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "43460531700016",
+        "survey:date": "2021-01-04",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3027310269,
+      "lat": 45.7378442,
+      "lon": 4.8654701,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bazar",
+        "phone": "+33 4 78 01 42 20",
+        "ref:FR:SIRET": "81987687100024",
+        "tobacco": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3070193592,
+      "lat": 45.7508237,
+      "lon": 4.8470353,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "51",
+        "name": "Tire-toi une bûche 2",
+        "opening_hours": "Tu-Th 17:30-24:00, Fr 17:30-01:00, Sa 16:30-01:00, Su 14:30-23:00",
+        "ref:FR:SIRET": "98823383900014",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3093797404,
+      "lat": 45.7713743,
+      "lon": 4.8352736,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/Les-Valseuses-180887628624345",
+        "contact:housenumber": "1",
+        "contact:street": "Rue Chappet",
+        "contact:website": "http://www.valseuses.com/info.html",
+        "name": "Les Valseuses",
+        "ref:FR:SIRET": "51136260000021",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3093797405,
+      "lat": 45.7713422,
+      "lon": 4.8330154,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "12",
+        "contact:phone": "+33 6 22 89 95 10",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Imbert Colomes",
+        "name": "Blonde Ou Brune",
+        "opening_hours": "Tu-Fr 17:00-01:00; Sa 15:00-01:00",
+        "short_name": "Bob",
+        "website": "https://www.boblyon.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3139833302,
+      "lat": 45.7688367,
+      "lon": 4.8526408,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Brasserie du Square",
+        "note": "Vente d'huîtres/Sells oysters",
+        "opening_hours": "Mo-Sa 07:30-20:00+",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "39240213700013",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3139885744,
+      "lat": 45.7705381,
+      "lon": 4.8520281,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 6eme Arrondissement",
+        "contact:housenumber": "32",
+        "contact:phone": "+33 4 37 42 03 97",
+        "contact:postcode": "69006",
+        "contact:street": "Rue Tête D'or",
+        "name": "Les Canailles De Raphaël",
+        "opening_hours": "Tu-Sa 18:00-24:00",
+        "ref:FR:SIRET": "92146190100016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3139885913,
+      "lat": 45.7667369,
+      "lon": 4.8598151,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-09-19",
+        "name": "Barrio Club",
+        "ref:FR:SIRET": "51478731600017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3214986932,
+      "lat": 45.7632513,
+      "lon": 4.8285022,
+      "tags": {
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Le Florian",
+        "phone": "+33 4 78 42 24 37",
+        "ref:FR:SIRET": "85172240500020",
+        "website": "http://le-florian.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3243656263,
+      "lat": 45.7486732,
+      "lon": 4.8399915,
+      "tags": {
+        "amenity": "bar",
+        "contact:instagram": "pote.lyon",
+        "description": "Restaurant-bar. Tapas le soir.",
+        "diet:vegetarian": "yes",
+        "name": "POTE",
+        "note": "L'écriture tout en majuscules n'est pas une erreur mais une volonté graphique des propriétaires.",
+        "opening_hours": "Tu 11:00-24:00, We-Sa 11:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 9 87 01 65 13",
+        "ref:FR:SIRET": "93359208100014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3283380006,
+      "lat": 45.7529735,
+      "lon": 4.8462387,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 7eme Arrondissement",
+        "contact:housenumber": "12",
+        "contact:phone": "+33 4 37 66 32 16",
+        "contact:postcode": "69007",
+        "contact:street": "Avenue Jean Jaurès",
+        "description": "Bar, Coffee Shop & Moto",
+        "name": "Kargo Kulte",
+        "opening_hours": "Mo-We 10:00-23:00; Th-Fr 10:00-24:00; Sa 10:00-23:00",
+        "organic": "no",
+        "ref:FR:SIRET": "84199247200016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3287914160,
+      "lat": 45.77769,
+      "lon": 4.83425,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bertone",
+        "ref:FR:SIRET": "98513732200014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3380553585,
+      "lat": 45.7502193,
+      "lon": 4.8432149,
+      "tags": {
+        "addr:housenumber": "58",
+        "addr:street": "Rue Salomon Reinach",
+        "amenity": "bar",
+        "bar": "yes",
+        "brewery": "yes",
+        "check_date": "2023-10-07",
+        "cuisine": "regional;dessert",
+        "indoor_seating": "yes",
+        "name": "Le Bouillon Paradis",
+        "opening_hours": "Mo-Fr 09:00-01:00; Sa,Su 09:30-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 9 83 91 52 72",
+        "ref:FR:SIRET": "81177194800015",
+        "smoking": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3437858693,
+      "lat": 45.769738,
+      "lon": 4.83053,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/lagrooverie",
+        "live_music": "yes",
+        "name": "La Grooverie",
+        "opening_hours": "Mo-Su 18:00-01:00",
+        "ref:FR:SIRET": "81326121100029",
+        "smoking": "outside",
+        "sport": "table_soccer;pinball",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3446956222,
+      "lat": 45.7684022,
+      "lon": 4.8584833,
+      "tags": {
+        "amenity": "bar",
+        "cuisine": "french;peruvian",
+        "description": "Bar & Ceviche",
+        "name": "Yka",
+        "opening_hours": "Tu-Sa 12:00-14:30,19:30-23:00",
+        "phone": "+33478244971",
+        "ref:FR:SIREN": "799073713",
+        "website": "https://www.restaurant-miraflores.com/yka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3453557935,
+      "lat": 45.7817198,
+      "lon": 4.8872718,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Tabac",
+        "opening_hours": "Mo-Fr 06:00-00:30, Sa 07:00-21:00, Su 07:00-00:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3471713593,
+      "lat": 45.7525027,
+      "lon": 4.8316449,
+      "tags": {
+        "amenity": "bar",
+        "description": "Bar à vin",
+        "internet_access": "wlan",
+        "name": "Le Troquet des Sens",
+        "opening_hours": "Mo-Th 12:00-13:30,19:00-22:00; Fr 12:00-13:30,19:30-22:00",
+        "ref:FR:SIRET": "51342004200014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3472846044,
+      "lat": 45.7705306,
+      "lon": 4.8675072,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-05-19",
+        "indoor_seating": "yes",
+        "name": "Bistrot Le Florian",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "85068292300014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3566596893,
+      "lat": 45.769708,
+      "lon": 4.831624,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "112",
+        "indoor_seating": "yes",
+        "name": "Quartier",
+        "opening_hours": "Tu-Sa 12:00-01:00",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3586933984,
+      "lat": 45.7645393,
+      "lon": 4.828918,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "1",
+        "contact:postcode": "69005",
+        "contact:street": "Quai Romain Rolland",
+        "cuisine": "ice_cream",
+        "name": "Le Bavard",
+        "opening_hours": "07:30-02:00",
+        "phone": "+33 4 78 37 36 32",
+        "ref:FR:SIRET": "81514573500024",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3593853393,
+      "lat": 45.7530681,
+      "lon": 4.8403037,
+      "tags": {
+        "amenity": "bar",
+        "name": "Féroce",
+        "opening_hours": "We-Fr 17:00-01:00, Sa 12:00-01:00, Su 12:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3606692522,
+      "lat": 45.7667943,
+      "lon": 4.8375558,
+      "tags": {
+        "alt_name": "Black Forest",
+        "amenity": "bar",
+        "name": "Black Forest Society",
+        "opening_hours": "Mo-We 18:00-01:00, Th 18:00-02:00, Fr,Sa 18:00-03:00",
+        "phone": "+33 4 78 28 98 18",
+        "ref:FR:SIRET": "84236516500021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3627385136,
+      "lat": 45.7665813,
+      "lon": 4.8318689,
+      "tags": {
+        "amenity": "bar",
+        "name": "Les Arpenteurs",
+        "opening_hours": "Mo 17:00-22:30, Tu-Fr 17:00-00:30, Sa 15:00-00:30, Su 15:00-22:30",
+        "ref:FR:SIRET": "83867874600010",
+        "website": "https://www.lesarpenteurs-bar.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3628241990,
+      "lat": 45.7691816,
+      "lon": 4.8298426,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33 4 72 07 95 71",
+        "indoor_seating": "yes",
+        "name": "BizTooFly Bar",
+        "opening_hours": "Th-Sa 18:00-01:00",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "53337242100024"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3637297364,
+      "lat": 45.747809,
+      "lon": 4.8213074,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon",
+        "contact:housenumber": "12",
+        "contact:postcode": "69002",
+        "contact:street": "Cours Suchet",
+        "name": "L'envie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3718546955,
+      "lat": 45.7598043,
+      "lon": 4.8261387,
+      "tags": {
+        "amenity": "bar",
+        "name": "Betty’s Bar",
+        "opening_hours": "Mo,Su 17:00-22:30; Tu-Th 17:00-00:00; Fr-Sa 17:00-01:00; PH off",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "53765213300019",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3729195744,
+      "lat": 45.7738024,
+      "lon": 4.8230075,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "les Sept Marches",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "87778064300012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3729195746,
+      "lat": 45.7735842,
+      "lon": 4.8225114,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-10-12",
+        "name": "La Torpille",
+        "opening_hours": "Mo-Su 16:00-01:00",
+        "ref:FR:SIRET": "79826251500025"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3775584795,
+      "lat": 45.8757456,
+      "lon": 4.8387053,
+      "tags": {
+        "amenity": "bar",
+        "name": "Café de la Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3952947936,
+      "lat": 45.7789318,
+      "lon": 4.8408416,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Churchill",
+        "ref:FR:SIRET": "81799141700012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3963755348,
+      "lat": 45.7755973,
+      "lon": 4.8351311,
+      "tags": {
+        "addr:postcode": "69004",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Apérousse",
+        "opening_hours": "We-Su 12:00-13:30,19:00-21:30",
+        "outdoor_seating": "yes",
+        "phone": "+33 9 82 33 33 02",
+        "ref:FR:SIRET": "83113892000028",
+        "website": "https://www.bistrotorcia.fr",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3966246243,
+      "lat": 45.6014356,
+      "lon": 4.5889049,
+      "tags": {
+        "addr:city": "Riverie",
+        "addr:postcode": "69440",
+        "addr:street": "Rue de la Barre",
+        "amenity": "bar",
+        "name": "La Ronde de Riverie",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4081103802,
+      "lat": 45.6027786,
+      "lon": 4.5222626,
+      "tags": {
+        "addr:city": "Larajasse",
+        "addr:housenumber": "177",
+        "addr:postcode": "69590",
+        "addr:street": "Route de l'Indépendance",
+        "amenity": "bar",
+        "name": "Chez Pat et Hervé",
+        "phone": "+33478484260"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4121087424,
+      "lat": 45.7711898,
+      "lon": 4.8341532,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:facebook": "https://www.facebook.com/ReperesLyon",
+        "contact:housenumber": "2",
+        "contact:phone": "+33 6 71 03 52 68",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Camille Jordan",
+        "contact:website": "https://www.reperes-lyon.fr/le-bar",
+        "cuisine": "french",
+        "harassment_prevention": "ask_angela",
+        "lgbtq": "welcome",
+        "name": "Repère(S)",
+        "opening_hours": "Tu,We 18:00-23:00; Th-Sa 18:00-24:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4121893489,
+      "lat": 45.6707945,
+      "lon": 4.753038,
+      "tags": {
+        "addr:city": "Brignais",
+        "addr:housenumber": "174",
+        "addr:postcode": "69530",
+        "addr:street": "Rue du Général de Gaulle",
+        "amenity": "bar",
+        "name": "Le Derby"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4179357747,
+      "lat": 45.6445537,
+      "lon": 5.0110374,
+      "tags": {
+        "addr:city": "Saint-Pierre-de-Chandieu",
+        "addr:housenumber": "2",
+        "addr:postcode": "69780",
+        "addr:street": "Place Charles de Gaulle",
+        "amenity": "bar",
+        "name": "Chandieu Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4193563757,
+      "lat": 45.7560962,
+      "lon": 4.8575316,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-01-16",
+        "name": "Siam Bistro",
+        "opening_hours": "Mo,Tu 10:00-16:00, We-Fr 10:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 478950728",
+        "ref:FR:SIRET": "83098501600021",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4224086193,
+      "lat": 45.7635317,
+      "lon": 4.8289054,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes;various",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "13",
+        "contact:postcode": "69005",
+        "contact:street": "Quai Romain Rolland",
+        "delivery": "yes",
+        "description": "Bar festif à tapas",
+        "email": "contact@laferialyon.fr",
+        "image": "https://laferialyon.fr/wp-content/uploads/2020/01/la-feria-08-hd.jpg",
+        "internet_access": "yes",
+        "min_age": "18",
+        "name": "La Feria (Lyon)",
+        "opening_hours": "Su-Th 18:00-05:00, Fr,Sa 18:00-06:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 6 33 97 03 00",
+        "ref:FR:SIRET": "30395372300010",
+        "start_date": "2019-07-15",
+        "takeaway": "yes",
+        "website": "https://laferialyon.fr/le-bar/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4264078850,
+      "lat": 45.5034115,
+      "lon": 4.8342011,
+      "tags": {
+        "amenity": "bar",
+        "name": "Saxo Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4310371166,
+      "lat": 45.7702436,
+      "lon": 4.8264574,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Absinthe",
+        "opening_hours": "Tu-Su 18:00-04:00",
+        "ref:FR:SIRET": "82843824200012",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4358669591,
+      "lat": 45.7695385,
+      "lon": 4.829646,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "4",
+        "contact:phone": "+33 6 68 80 85 87",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Du Jardin Des Plantes",
+        "name": "La Serre",
+        "opening_hours": "Tu-Sa 16:30-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4426165594,
+      "lat": 45.7633845,
+      "lon": 4.8447873,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Patrie",
+        "ref:FR:SIRET": "34868160200051"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4426476928,
+      "lat": 45.7656594,
+      "lon": 4.8319642,
+      "tags": {
+        "amenity": "bar",
+        "harassment_prevention": "ask_angela",
+        "live_music": "yes",
+        "music_genre": "jazz",
+        "name": "Jazz Hot Club de Lyon",
+        "opening_hours": "Tu-Sa 20:00-1:00",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "77982745000031",
+        "survey:date": "2024-08-04",
+        "website": "https://www.hotclubjazzlyon.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4566577160,
+      "lat": 45.7240506,
+      "lon": 4.8837084,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "cuisine": "portuguese",
+        "description": "Fait aussi restaurant avec plat du jour. Plat d'inspiration portugaise. Tous les jours d'ouverture, Pizza avec la pâte bio et à la main de La Miecyclette (la boulangerie contiguë)",
+        "internet_access": "no",
+        "name": "Le Azevedo",
+        "opening_hours": "Tu-Su 09:45-13:30,17:00-20:30",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "81754951200017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4594662490,
+      "lat": 45.750053,
+      "lon": 4.8442192,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-02-01",
+        "check_date:opening_hours": "2024-12-03",
+        "check_date:smoking": "2025-02-01",
+        "name": "Turbine",
+        "opening_hours": "Tu-Sa 17:00-01:00",
+        "ref:FR:SIRET": "95128202900010",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4607996706,
+      "lat": 45.7622831,
+      "lon": 4.8285561,
+      "tags": {
+        "amenity": "bar",
+        "name": "Look Bar",
+        "phone": "+33 4 78 37 38 94",
+        "ref:FR:SIRET": "79351256700017",
+        "website": "https://look-bar-lyon.business.site/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4725889228,
+      "lat": 45.6909652,
+      "lon": 4.9358736,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Tabac Rul",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78201623"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4747925321,
+      "lat": 45.7710272,
+      "lon": 4.8350951,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:postcode": "69001",
+        "addr:street": "Rue des Tables Claudiennes",
+        "amenity": "bar",
+        "check_date": "2025-10-31",
+        "check_date:currency:XBT": "2023-02-07",
+        "contact:housenumber": "32",
+        "contact:phone": "+33635260324",
+        "contact:street": "Rue des Tables Claudiennes",
+        "contact:website": "https://www.meltdown.bar/lyon",
+        "currency:XBT": "yes",
+        "internet_access": "wlan",
+        "name": "Meltdown Lyon",
+        "opening_hours": "Mo-Sa 18:00-01:00; Su 15:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "ref:FR:SIRET": "80921743300022",
+        "website": "https://lyon.meltdown.bar/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4767264635,
+      "lat": 45.769773,
+      "lon": 4.8256499,
+      "tags": {
+        "amenity": "bar",
+        "name": "Yakapiocher",
+        "opening_hours": "Tu-Th 17:00-24:00, Fr 17:00-01:00, Sa 15:00-01:00, Su 15:00-22:00",
+        "phone": "+33 9 87 09 88 14",
+        "ref:FR:SIRET": "81061370300026",
+        "website": "https://www.yakapiocher.fr/index.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4784137436,
+      "lat": 45.7655863,
+      "lon": 4.8327592,
+      "tags": {
+        "amenity": "bar",
+        "capacity": "110",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:facebook": "Café-Chenavard-104231196284746",
+        "contact:housenumber": "20",
+        "contact:instagram": "cafechenavard",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Paul Chenavard",
+        "diet:vegetarian": "yes",
+        "name": "Chenavard",
+        "opening_hours": "Mo 07:00-23:00; Tu-Sa 07:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 28 64 14",
+        "ref:FR:SIRET": "85219546000013",
+        "website": "https://chenavard.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4792393661,
+      "lat": 45.7734887,
+      "lon": 4.8090988,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-01-02",
+        "name": "Louis Bar",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4795817524,
+      "lat": 45.7659506,
+      "lon": 4.833876,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Passage",
+        "opening_hours": "Tu-Sa 20:00-01:00",
+        "ref:FR:SIRET": "33189063200010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4823417322,
+      "lat": 45.7299434,
+      "lon": 4.8330373,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 7eme Arrondissement",
+        "contact:housenumber": "283",
+        "contact:phone": "+33 4 69 85 66 08",
+        "contact:postcode": "69007",
+        "contact:street": "Avenue Jean Jaurès",
+        "cuisine": "sicilian;fish;seafood;pizza;pasta;italian",
+        "name": "Casa Nobile Gerland",
+        "phone": "+33 4 78 72 10 10",
+        "ref:FR:SIRET": "43193722600022",
+        "website": "https://www.casanobile.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4825868924,
+      "lat": 45.750978,
+      "lon": 4.8425298,
+      "tags": {
+        "amenity": "bar",
+        "facebook": "https://www.facebook.com/unairdejanis",
+        "instagram": "https://www.instagram.com/au_janis/",
+        "name": "Au Janis",
+        "opening_hours": "Tu-Sa 08:30-14:00,17:00-23:30",
+        "phone": "+33 6 72184716",
+        "ref:FR:SIRET": "83055831800044"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4930487821,
+      "lat": 45.7613189,
+      "lon": 4.832046,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2026-01-17",
+        "check_date:opening_hours": "2024-02-14",
+        "name": "L'Ange Di Vin",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "75171004700018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4940584513,
+      "lat": 45.7536464,
+      "lon": 4.8385663,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "mystic;weihenstephaner;benediktiner;köstritzer",
+        "cuisine": "german",
+        "diet:vegan": "yes",
+        "email": "lyon7@kaffeeberlin.com",
+        "happy_hours": "Mo-Fr 16:00-20:00; Sa,Su 16:00-19:00",
+        "internet_access": "no",
+        "name": "Kaffee Berlin",
+        "opening_hours": "Mo-Sa 11:30-00:00; Su 11:30-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 72 70 88 77",
+        "ref:FR:SIRET": "89316954000026",
+        "website": "https://www.kaffeeberlin.com",
+        "website:menu": "https://www.kaffeeberlin.com/index.php/menu/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002758348,
+      "lat": 45.8457448,
+      "lon": 4.8319167,
+      "tags": {
+        "addr:city": "Couzon-au-Mont-d'Or",
+        "addr:housenumber": "1",
+        "addr:postcode": "69270",
+        "addr:street": "Place de la Liberté",
+        "amenity": "bar",
+        "check_date": "2024-01-25",
+        "name": "L'Ecluse",
+        "opening_hours": "Mo-Su; We off",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 36 75 51",
+        "source": "Guillaume Briot 07/2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5030672724,
+      "lat": 45.7790513,
+      "lon": 4.8793345,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-12-09",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Arcaneum Bar Gaming",
+        "opening_hours": "Tu-Sa 11:30-01:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+33 6 50 74 59 71",
+        "ref:FR:SIRET": "81331187500013",
+        "website": "http://www.arcaneum-bar.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5039727657,
+      "lat": 45.7503386,
+      "lon": 4.8866761,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "Drink-Bar-102479353159379",
+        "name": "Le Drink",
+        "phone": "+33 4 78 53 26 06",
+        "ref:FR:SIRET": "40846071500043"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5102608321,
+      "lat": 45.7703491,
+      "lon": 4.8317138,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-03-03",
+        "check_date:opening_hours": "2025-03-03",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Auprès de mon arbre",
+        "opening_hours": "Mo 16:00-23:00; Tu 16:00-00:45; We-Sa 09:30-00:45; Su 09:30-23:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "84849908300014",
+        "website": "https://aupres-de-mon-arbre.eatbu.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5104774383,
+      "lat": 45.7463042,
+      "lon": 4.82364,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-09-05",
+        "contact:city": "Lyon",
+        "contact:housenumber": "32",
+        "contact:postcode": "69002",
+        "description": "Bar à bières.",
+        "email": "contact@brasserieplatypus.com",
+        "name": "Platypus Café Brewpub",
+        "opening_hours": "Mo-We 17:00-24:00, Th-Sa 17:00-01:00",
+        "opening_hours:signed": "no",
+        "phone": "+336 50 88 03 50",
+        "ref:FR:SIRET": "80949216800020",
+        "website": "https://brasserieplatypus.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5116858721,
+      "lat": 45.7709807,
+      "lon": 4.8373371,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Rue Royale",
+        "amenity": "bar",
+        "cocktails": "yes",
+        "contact:facebook": "https://www.facebook.com/fantome.opera.bar",
+        "contact:instagram": "unfantomealyon",
+        "email": "fantomeoperalyon@gmail.com",
+        "name": "Le Fantôme de l'Opéra",
+        "opening_hours": "Tu-Sa 18:00-01:00",
+        "phone": "+33437920388",
+        "ref:FR:SIRET": "53096293500025",
+        "website": "http://www.lefantomedelopera.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5130495451,
+      "lat": 45.7682605,
+      "lon": 4.8563643,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "L’Artchimiste",
+        "opening_hours": "Mo-Su 17:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33478411585",
+        "ref:FR:SIRET": "82884757400021",
+        "website": "https://www.lartchimiste.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5230020620,
+      "lat": 45.7704012,
+      "lon": 4.836705,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "Guinness",
+        "brewery:note": "Brasserie du Mont-Blanc",
+        "contact:facebook": "https://www.facebook.com/LesBarjaqueurs/",
+        "name": "Les Barjaqueurs",
+        "opening_hours": "Mo-Su 17:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 9 67 72 87 91",
+        "ref:FR:SIRET": "82009625300019",
+        "smoking": "outside",
+        "website": "http://www.les-barjaqueurs.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5298143155,
+      "lat": 45.7567937,
+      "lon": 4.8161456,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon",
+        "contact:country": "FR",
+        "contact:housenumber": "33",
+        "contact:postcode": "69005",
+        "contact:street": "Rue de Trion",
+        "name": "Le bistro Nicéphore",
+        "opening_hours": "Mo 17:00-23:00; Tu-Fr 09:00-14:00,17:00-22:30",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5309712466,
+      "lat": 45.7508907,
+      "lon": 4.8421862,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "no",
+        "contact:instagram": "https://www.instagram.com/basement.cool/",
+        "indoor_seating": "yes",
+        "name": "Basement",
+        "opening_hours": "Tu-Sa 15:00-24:00, Su 15:00-22:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "88234722200011",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.basement.cool/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5337546048,
+      "lat": 45.6927932,
+      "lon": 5.0299303,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Cévenol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5387193989,
+      "lat": 45.7685124,
+      "lon": 4.8300084,
+      "tags": {
+        "amenity": "bar",
+        "contact:email": "contact@mmlyon.com",
+        "contact:phone": "+33 4 72008767",
+        "contact:website": "http://mmlyon.com/",
+        "name": "La Maison M",
+        "opening_hours": "We-Sa 19:30-04:00",
+        "ref:FR:SIRET": "79788354300010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5403800843,
+      "lat": 45.7709749,
+      "lon": 4.8345855,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/lebistrodacote",
+        "contact:housenumber": "28",
+        "contact:street": "Rue des Tables Claudiennes",
+        "name": "Le BistrO d'à cÔté",
+        "ref:FR:SIRET": "80239715800014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5415142499,
+      "lat": 45.7693037,
+      "lon": 4.8320818,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date:opening_hours": "2025-03-03",
+        "name": "Le Shalala",
+        "opening_hours": "We-Sa 18:18-01:01",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "phone": "+33 9 50 49 52 84",
+        "website": "https://www.leshalala.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5435506467,
+      "lat": 45.7549728,
+      "lon": 4.875252,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-10-17",
+        "indoor_seating": "yes",
+        "name": "La Station",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "34206853300021",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5459458936,
+      "lat": 45.6909068,
+      "lon": 4.937696,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Entre-Temps",
+        "opening_hours": "Tu-Th 08:00-19:00; Fr 08:00-22:00; Sa 08:00-19:00; Su 08:00-14:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5512514457,
+      "lat": 45.750057,
+      "lon": 4.8299973,
+      "tags": {
+        "amenity": "bar",
+        "name": "Café Lyonnais",
+        "survey:date": "2023-08-19"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5536564126,
+      "lat": 45.7540424,
+      "lon": 4.8853953,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-04-20",
+        "name": "Bar du Tramway",
+        "ref:FR:SIRET": "87883431600027"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5538563321,
+      "lat": 45.7696185,
+      "lon": 4.8568353,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Barabaar",
+        "opening_hours": "08:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "41495941100011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5598900921,
+      "lat": 45.7654445,
+      "lon": 4.8289244,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-08-02",
+        "check_date:opening_hours": "2025-01-31",
+        "indoor_seating": "yes",
+        "name": "Le Bar Bu",
+        "opening_hours": "Mo-Fr 17:00-01:00, Sa 15:00-01:00, Su 12:00-01:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5606383068,
+      "lat": 45.7570458,
+      "lon": 4.8511828,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "L’Alternateur",
+        "opening_hours": "Mo-We 17:00-23:30; Th-Sa 17:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 981113514",
+        "ref:FR:SIRET": "91145684600011",
+        "website": "https://linktr.ee/lalternateurbar",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5701583875,
+      "lat": 45.6364246,
+      "lon": 4.4621,
+      "tags": {
+        "addr:city": "Saint-Symphorien-sur-Coise",
+        "addr:housenumber": "240",
+        "addr:postcode": "69590",
+        "addr:street": "Avenue Emmanuel Clément",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/le21plat/",
+        "email": "le21plat@gmail.com",
+        "name": "21 Plat",
+        "opening_hours": "We-Fr 09:30-23:00; Sa 09:30-12:30,16:30-23:00",
+        "phone": "+33437220569",
+        "ref:FR:SIRET": "81931292700018",
+        "website": "http://le21plat.fr",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5703689695,
+      "lat": 45.747567,
+      "lon": 4.838654,
+      "tags": {
+        "amenity": "bar",
+        "contact:instagram": "https://www.instagram.com/tic.et.tac.bar/",
+        "name": "Tic & Tac Bar",
+        "opening_hours": "Mo-Sa 17:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "91772552500013",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5706977358,
+      "lat": 45.7706062,
+      "lon": 4.8370066,
+      "tags": {
+        "amenity": "bar",
+        "name": "Groom",
+        "ref:FR:SIRET": "81459422200022"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5732151537,
+      "lat": 45.7096015,
+      "lon": 4.4924305,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar-Restaurant Luni'K",
+        "phone": "+33474706618"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5752127441,
+      "lat": 45.7521649,
+      "lon": 4.8441559,
+      "tags": {
+        "alt_name": "L'Amicale du Futur",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2024-05-29",
+        "description": "Bar associatif, avec bibliothèque gratuite (sans emprunt)",
+        "name": "L'Amicale",
+        "note": "Présence d'une bibliothèque gratuite (sans emprunt)",
+        "opening_hours": "We-Fr 14:00-22:00",
+        "outdoor_seating": "no",
+        "smoking": "outside",
+        "website": "https://amicale.online/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5775254815,
+      "lat": 45.7165541,
+      "lon": 5.078592,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2025-09-09",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Alpage",
+        "opening_hours": "Mo-Su 05:45-22:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5832353688,
+      "lat": 45.7121327,
+      "lon": 4.7461,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Comptoir"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5859940650,
+      "lat": 45.7697199,
+      "lon": 4.8289488,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "30",
+        "contact:phone": "+33 4 78 28 85 26",
+        "contact:postcode": "69001",
+        "contact:street": "Rue De L'annonciade",
+        "name": "Cabana Café",
+        "opening_hours": "Tu 18:30-23:59; We 00:00-02:00, 18:30-23:59; Th-Sa 00:00-04:00, 18:30-23:59; Su 00:00-04:00",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "50069159700024",
+        "website": "https://www.privateaser.com/lieu/43618-cabana-cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5871205186,
+      "lat": 45.7544347,
+      "lon": 4.8395915,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "BrewDog Punk Ipa",
+        "happy_hours": "Mo-Su 16:00-20:00",
+        "name": "PEPS public House",
+        "opening_hours": "Mo-Su 15:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83903938500019"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5881192859,
+      "lat": 45.8312978,
+      "lon": 4.6687897,
+      "tags": {
+        "addr:city": "Fleurieux-sur-l'Arbresle",
+        "addr:housenumber": "2618",
+        "addr:postcode": "69210",
+        "addr:street": "Route de France",
+        "amenity": "bar",
+        "min_age": "18",
+        "name": "Slayloc",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5881223342,
+      "lat": 45.7211074,
+      "lon": 4.6939769,
+      "tags": {
+        "addr:city": "Brindas",
+        "addr:postcode": "69126",
+        "addr:street": "Rue du Vieux Bourg",
+        "amenity": "bar",
+        "contact:housenumber": "48",
+        "name": "Chez Colette",
+        "opening_hours": "Mo-Fr 06:15-20:00; Th off; Sa 07:00-20:00; Su 07:00-13:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5940528298,
+      "lat": 45.5263709,
+      "lon": 4.8687437,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Annexe",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6064489897,
+      "lat": 45.6410662,
+      "lon": 4.7222613,
+      "tags": {
+        "addr:city": "Taluyers",
+        "addr:postcode": "69440",
+        "addr:street": "Place de la Bascule",
+        "amenity": "bar",
+        "name": "L'Escapade",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6076115760,
+      "lat": 45.7154296,
+      "lon": 4.3969,
+      "tags": {
+        "amenity": "bar",
+        "name": "Chez Cat et Dom",
+        "phone": "+33474263558",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6091582143,
+      "lat": 45.7581758,
+      "lon": 4.8360855,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-07-07",
+        "check_date:opening_hours": "2024-07-07",
+        "contact:housenumber": "4",
+        "contact:street": "Cour Saint-Martin",
+        "level": "0",
+        "name": "Justin",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "82901686400029"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6132360237,
+      "lat": 45.614182,
+      "lon": 4.5001791,
+      "tags": {
+        "addr:city": "Larajasse",
+        "addr:housenumber": "73",
+        "addr:postcode": "69590",
+        "addr:street": "Place de la Mairie",
+        "amenity": "bar",
+        "name": "Bar des Gones",
+        "opening_hours": "Tu-Fr 07:00-22:00; Sa-Su 07:30-24:00",
+        "phone": "+33656794471"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6139930087,
+      "lat": 45.6640755,
+      "lon": 4.8957554,
+      "tags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6151877512,
+      "lat": 45.6988029,
+      "lon": 4.9430924,
+      "tags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6196612485,
+      "lat": 45.7690084,
+      "lon": 4.8658682,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:postcode": "69100",
+        "addr:street": "Rue d'Inkermann",
+        "amenity": "bar",
+        "board_games": "yes",
+        "diet:vegan": "yes",
+        "indoor_seating": "yes",
+        "name": "Le Shrubbery",
+        "opening_hours": "Sa 17:30-24:00; Tu-Fr 12:00-14:00, 17:30-00:00",
+        "operator:type": "cooperative",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "83116881000016",
+        "website": "https://leshrubbery.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6227571004,
+      "lat": 45.7645674,
+      "lon": 4.8273931,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-03-26",
+        "description": "Club de fléchettes et bar à bières",
+        "name": "Darts club des gones",
+        "website": "https://dartsclubdesgones.blogspot.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6295446951,
+      "lat": 45.7146867,
+      "lon": 4.8055636,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar du marché"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6301453536,
+      "lat": 45.7171079,
+      "lon": 4.8095027,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Fontenoy",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6317886315,
+      "lat": 45.6944078,
+      "lon": 4.9378134,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar des PTT"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6352641891,
+      "lat": 45.7369791,
+      "lon": 4.868997,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bachut",
+        "opening_hours": "Mo-Fr 15:30-19:00; Sa 10:00-12:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6376310776,
+      "lat": 45.7631242,
+      "lon": 4.8522504,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2026-02-04",
+        "name": "City Bar",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 10:00-22:00",
+        "ref:FR:SIRET": "81356078600010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6376365165,
+      "lat": 45.7666814,
+      "lon": 4.8425326,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Molière",
+        "ref:FR:SIRET": "79012996900024"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6376637433,
+      "lat": 45.7704867,
+      "lon": 4.8371669,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Speaker",
+        "old_name": "Impérial Discothèque",
+        "website": "https://speaker-lyon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6381278834,
+      "lat": 45.7686796,
+      "lon": 4.835799,
+      "tags": {
+        "amenity": "bar",
+        "name": "Sudaka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6407224082,
+      "lat": 45.7658946,
+      "lon": 4.8442707,
+      "tags": {
+        "amenity": "bar",
+        "name": "L’Edgar Quinet",
+        "ref:FR:SIRET": "82112998800027",
+        "survey:date": "2021-01-27"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6407257906,
+      "lat": 45.7695834,
+      "lon": 4.8425839,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Queen Mary",
+        "ref:FR:SIRET": "79106095700010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6407340022,
+      "lat": 45.7694129,
+      "lon": 4.8355592,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "4",
+        "name": "Deuxième Verre",
+        "ref:FR:SIRET": "99102604800017",
+        "survey:date": "2025-12-12"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6434075645,
+      "lat": 45.7695,
+      "lon": 4.8368352,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "5",
+        "contact:street": "Petite Rue des Feuillants",
+        "name": "Le Coup de Pelle",
+        "opening_hours": "We,Th 19:00-01:00; Fr,Sa 19:00-03:00",
+        "ref:FR:SIRET": "91274797900017",
+        "website": "https://lecoupdepelle.fr",
+        "website:menu": "https://lecoupdepelle.fr/carte"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6449268484,
+      "lat": 45.7652937,
+      "lon": 4.8334836,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-09-22",
+        "contact:email": "letempsdescop1@gmail.com",
+        "contact:facebook": "https://www.facebook.com/pg/BarLeTempsDesCopains",
+        "name": "Le Temps des Copains",
+        "opening_hours": "Mo-Su 18:00-03:00",
+        "outdoor_seating": "no",
+        "phone": "+33 625222010",
+        "ref:FR:SIRET": "81326914900023"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6496954833,
+      "lat": 45.7687792,
+      "lon": 4.8353961,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Bâton Rouge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6579599710,
+      "lat": 45.7237311,
+      "lon": 4.8724003,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Viviani",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 00 04 49",
+        "ref:FR:SIRET": "79834935300010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6594207033,
+      "lat": 45.6742416,
+      "lon": 4.7533681,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Rue Auguste Simondon",
+        "amenity": "bar",
+        "level": "1",
+        "name": "L'orange bleue",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6606146949,
+      "lat": 45.7629587,
+      "lon": 4.912858,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Mi-temps",
+        "ref:FR:SIRET": "34144589800024"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6651896452,
+      "lat": 45.7575704,
+      "lon": 4.8248577,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "48",
+        "contact:phone": "+33 9 74 73 58 68",
+        "contact:postcode": "69005",
+        "contact:street": "Rue Saint-Georges",
+        "cuisine": "burger",
+        "name": "Johnny's Kitchen",
+        "opening_hours": "Mo-Su 00:00-01:00, 12:00-23:59",
+        "phone": "+33 4 78 37 94 13",
+        "ref:FR:SIRET": "44490711700022",
+        "website": "https://www.privateaser.com/lieu/43745-johnny-s-kitchen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6710231398,
+      "lat": 45.7629433,
+      "lon": 4.8327947,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "35",
+        "contact:phone": "+33 9 79 99 86 61",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Mercière",
+        "name": "MOS Mercière",
+        "survey:date": "2025-04-26"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6710231400,
+      "lat": 45.7630275,
+      "lon": 4.8326011,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Galacia",
+        "survey:date": "2025-04-26"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6712449385,
+      "lat": 45.7679892,
+      "lon": 4.8679147,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-05-25",
+        "check_date:opening_hours": "2023-03-23",
+        "name": "L'étalon",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "80527187100016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6724424885,
+      "lat": 45.7652039,
+      "lon": 4.8324186,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "5",
+        "contact:street": "Rue Chavanne",
+        "name": "Le Chavanne",
+        "ref:FR:SIRET": "90919722000017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6781125931,
+      "lat": 45.7760005,
+      "lon": 4.8013875,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-12-10",
+        "check_date:opening_hours": "2024-03-10",
+        "name": "L'Atelier",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "44378974800011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6792062842,
+      "lat": 45.7497517,
+      "lon": 4.884904,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-01-03",
+        "description": "Bar PMU",
+        "indoor_seating": "yes",
+        "name": "Café Montchat",
+        "opening_hours": "Mo 12:00-20:30; Tu-Sa 08:00-20:30; Su 08:00-15:30",
+        "outdoor_seating": "parklet",
+        "ref:FR:SIRET": "82993902400016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6855176187,
+      "lat": 45.7671971,
+      "lon": 4.8269127,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2023-05-29",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "113",
+        "contact:phone": "+33 9 74 73 53 92",
+        "contact:postcode": "69005",
+        "contact:street": "Quai De Pierre-Scize",
+        "delivery": "no",
+        "name": "Kodama Bar Lyon",
+        "opening_hours": "Tu-Su 18:30-01:00",
+        "opening_hours:signed": "no",
+        "website": "https://www.privateaser.com/lieu/40824-kodama",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6874995535,
+      "lat": 45.763077,
+      "lon": 4.8321849,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "19",
+        "contact:postcode": "69002",
+        "contact:street": "Quai Saint-Antoine",
+        "cuisine": "burger",
+        "diet:vegetarian": "yes",
+        "food": "yes",
+        "name": "Le Quai 19",
+        "opening_hours": "Mo-We 16:00-02:00, Th-Sa 16:00-04:00, Su 17:00-01:00",
+        "phone": "+33 4 78 79 17 58",
+        "ref:FR:SIRET": "79540170200027"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6874995536,
+      "lat": 45.762129,
+      "lon": 4.8320294,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Roi Lyon",
+        "old_name": "Best Beers Concept",
+        "was:ref:FR:SIRET": "44467430300045"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6906110495,
+      "lat": 45.7615606,
+      "lon": 4.8324186,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "2",
+        "contact:phone": "+33981951061",
+        "contact:street": "Rue Thomassin",
+        "name": "Wallace",
+        "opening_hours": "Fr 16:00-02:00; Sa 15:00-02:00; Su-Th 16:00-00:30",
+        "ref:FR:SIRET": "48255136300021",
+        "survey:date": "2023-09-14",
+        "website": "http://wallacesnug.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6918242550,
+      "lat": 45.7614165,
+      "lon": 4.8320304,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "14",
+        "contact:phone": "+33 4 87 61 96 77",
+        "contact:postcode": "69002",
+        "contact:street": "Rue De La Monnaie",
+        "name": "Café Court",
+        "opening_hours": "Mo 18:00-23:59; Tu-Sa 00:00-01:00, 17:00-23:59; Su 00:00-01:00",
+        "ref:FR:SIRET": "88315971700015",
+        "survey:date": "2023-09-14",
+        "website": "https://www.privateaser.com/lieu/41138-cafe-court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6920874554,
+      "lat": 45.7848366,
+      "lon": 4.8528161,
+      "tags": {
+        "amenity": "bar",
+        "name": "Barum",
+        "website": "https://www.barum-lyon.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6939926699,
+      "lat": 45.758533,
+      "lon": 4.8363211,
+      "tags": {
+        "amenity": "bar",
+        "name": "Kabestan",
+        "opening_hours": "Mo-Sa 11:00-24:00, Su 11:00-18:00",
+        "survey:date": "2023-09-17",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6939998885,
+      "lat": 45.7582788,
+      "lon": 4.8355588,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "20",
+        "indoor_seating": "yes",
+        "name": "L'apérothèque",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "93814794900011",
+        "survey:date": "2025-03-25"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6943650786,
+      "lat": 45.7650723,
+      "lon": 4.8367718,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "23",
+        "contact:street": "Rue Gentil",
+        "happy_hours": "Tu-Su 17:00-20:00",
+        "name": "Gloria",
+        "opening_hours": "Tu-Su 17:00-01:00",
+        "ref:FR:SIRET": "98338432200019",
+        "survey:date": "2025-06-24"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6954907660,
+      "lat": 45.7609797,
+      "lon": 4.8323809,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2026-01-17",
+        "check_date:opening_hours": "2026-01-17",
+        "name": "Le Big",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "82407582400014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6954907664,
+      "lat": 45.7607611,
+      "lon": 4.8322856,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2026-01-20",
+        "check_date:opening_hours": "2026-01-20",
+        "name": "Le Temple",
+        "opening_hours": "Mo-Su 16:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7006019625,
+      "lat": 45.7320189,
+      "lon": 4.8836828,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bis'tram",
+        "ref:FR:SIRET": "84824610400014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7066083448,
+      "lat": 45.7501735,
+      "lon": 4.5481172,
+      "tags": {
+        "addr:city": "Courzieu",
+        "addr:street": "La Giraudière",
+        "amenity": "bar",
+        "contact:phone": "+33 4 74 70 85 02",
+        "description": "+ tabac",
+        "name": "Restaurant Commarmond",
+        "opening_hours": "Mo-Tu 08:00-13:00,15:30-21:00; We 08:00-13:00; Th-Fr 08:00-13:00,15:30-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7071592322,
+      "lat": 45.7568378,
+      "lon": 4.8282159,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-05-10",
+        "drink:wine": "yes",
+        "name": "L'Encart",
+        "opening_hours": "Mo-Fr 12:00-14:00, Th,Fr 19:00-01:00",
+        "ref:FR:SIRET": "78994682900023"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7090377600,
+      "lat": 45.755988,
+      "lon": 4.8679961,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-09-04",
+        "name": "LB Lyon",
+        "opening_hours": "14:00-01:00; Fr,Sa 14:00-02:00",
+        "phone": "+33 4 87 38 90 64",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7108781625,
+      "lat": 45.7558762,
+      "lon": 4.8572899,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-07-29",
+        "name": "Dadou",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "82151861000026"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7115053320,
+      "lat": 45.7513037,
+      "lon": 4.8262374,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/people/Chenin-N20/100033687733651/",
+        "contact:instagram": "https://www.instagram.com/chenin_n20/?hl=en",
+        "description": "Bar à vins",
+        "min_age": "18",
+        "name": "Chenin № 20",
+        "phone": "+33983456469",
+        "ref:FR:SIRET": "82430076800010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7122675887,
+      "lat": 45.7750605,
+      "lon": 4.830997,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Rue de Cuire",
+        "amenity": "bar",
+        "check_date": "2022-11-01",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Toké",
+        "opening_hours": "11:30-22:30",
+        "payment:credit_cards": "yes",
+        "ref:FR:SIRET": "79376508200011",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7122780885,
+      "lat": 45.7543402,
+      "lon": 4.8394045,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-07-08",
+        "contact:instagram": "lesemplelyon",
+        "email": "pierre@lesemple-lyon.com",
+        "name": "Le Semple",
+        "opening_hours": "Tu-We 10:00-23:00; Th-Fr 10:00-01:00; Sa 14:00-01:00",
+        "phone": "+33 6 12 89 15 89",
+        "ref:FR:SIRET": "84772347500012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7154583973,
+      "lat": 45.7583491,
+      "lon": 4.8860379,
+      "tags": {
+        "amenity": "bar",
+        "name": "Babylone",
+        "ref:FR:SIRET": "80517707800013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7158666019,
+      "lat": 45.8206202,
+      "lon": 4.8968769,
+      "tags": {
+        "amenity": "bar",
+        "name": "Brasserie de la Mairie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7301436176,
+      "lat": 45.7617695,
+      "lon": 4.8345576,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-02-24",
+        "name": "El Chapeau",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "95302571500020",
+        "survey:date": "2023-08-17"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7302402755,
+      "lat": 45.7597714,
+      "lon": 4.8310044,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "6",
+        "name": "Le Kabuki",
+        "opening_hours": "Tu-Sa 17:00-01:00",
+        "ref:FR:SIRET": "91768911900027",
+        "survey:date": "2025-08-09"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7343100457,
+      "lat": 45.7616895,
+      "lon": 4.831789,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33478857074",
+        "name": "Ffa - Federation Française De L'aperitif - Lyon",
+        "opening_hours": "Tu 11:00-15:00,16:00-21:30; We 11:00-15:00,16:00-22:00; Th 11:00-15:00,16:00-23:00; Fr,Sa 11:00-23:00; Su 11:00-15:00",
+        "ref:FR:SIRET": "89784081500020",
+        "website": "https://www.ffaperitif.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7344124789,
+      "lat": 45.7745922,
+      "lon": 4.8291135,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-06-29",
+        "cuisine": "french",
+        "indoor_seating": "yes",
+        "name": "Café de la Soierie",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "81335268900018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7379273258,
+      "lat": 45.7487726,
+      "lon": 4.8382682,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-09-13",
+        "drink:craft_beer": "yes",
+        "internet_access": "wlan",
+        "name": "La Plante du Loup",
+        "opening_hours": "Mo-Sa 16:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7433527651,
+      "lat": 45.7627632,
+      "lon": 4.8351111,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Rue du Palais Grillet",
+        "amenity": "bar",
+        "check_date:opening_hours": "2024-06-30",
+        "cocktails": "yes",
+        "contact:instagram": "pompette_lyon",
+        "name": "Pompette",
+        "opening_hours": "Mo-Tu 18:00-00:00; We-Sa 18:00-01:00",
+        "opening_hours:signed": "no",
+        "phone": "+33487372154",
+        "ref:FR:SIRET": "89486285300013",
+        "website": "https://www.pompettelyon.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7434190912,
+      "lat": 45.7629309,
+      "lon": 4.8329968,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-10-17",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:facebook": "https://www.facebook.com/BarLePleinSud/",
+        "contact:housenumber": "3",
+        "contact:instagram": "https://www.instagram.com/plein_sud_lyon2/",
+        "contact:phone": "+33 6 11 95 23 20",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Tupin",
+        "contact:ubereats": "https://www.ubereats.com/store/plein-sud/-Dd3IleyQ9aTziMeY2_CIA",
+        "delivery:ubereats": "yes",
+        "name": "Plein Sud",
+        "opening_hours": "Mo 11:00-23:59; Tu-Sa 00:00-04:00, 11:00-23:59; Su 00:00-04:00",
+        "phone": "+33 4 78 42 52 62",
+        "ref:FR:SIRET": "35097151100018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7499062668,
+      "lat": 45.7652482,
+      "lon": 4.8362787,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-06-24",
+        "check_date:opening_hours": "2025-06-24",
+        "contact:housenumber": "26",
+        "name": "Vivants",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "89010770900010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7499089705,
+      "lat": 45.7663571,
+      "lon": 4.8369235,
+      "tags": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "L bar",
+        "ref:FR:SIRET": "53438607300017",
+        "survey:date": "2022-03-13"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7499147567,
+      "lat": 45.7641224,
+      "lon": 4.8376452,
+      "tags": {
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "XS Bar",
+        "ref:FR:SIRET": "52457070200018",
+        "survey:date": "2022-03-13"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7501661848,
+      "lat": 45.7619344,
+      "lon": 4.8352569,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-03-24",
+        "drink:cocktail": "yes",
+        "name": "Contrast",
+        "opening_hours": "Tu,We 17:30-23:30; Th-Sa 17:30-01:00",
+        "outdoor_seating": "yes",
+        "survey:date": "2025-03-24"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7501744140,
+      "lat": 45.7627084,
+      "lon": 4.8343952,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2023-09-16",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "4",
+        "contact:phone": "+33 9 74 64 01 39",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Des Quatre Chapeaux",
+        "name": "Le Qu4Tre",
+        "opening_hours": "Tu-Sa 16:00-01:00",
+        "ref:FR:SIRET": "81437022700013",
+        "short_name": "Iv",
+        "website": "https://www.privateaser.com/lieu/1669-le-qu4tre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7549176121,
+      "lat": 45.7597582,
+      "lon": 4.8408111,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-05-15",
+        "name": "Buvette du pont Wilson",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7551752924,
+      "lat": 45.7657414,
+      "lon": 4.8328359,
+      "tags": {
+        "amenity": "bar",
+        "name": "Les arcades",
+        "opening_hours": "Mo-Sa 09:00-01:00",
+        "ref:FR:SIRET": "30327455900010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7551767594,
+      "lat": 45.7658104,
+      "lon": 4.8328528,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-08-03",
+        "contact:housenumber": "18",
+        "contact:phone": "+33478279864",
+        "happy_hours": "Mo-Sa 17:00-19:30",
+        "name": "Barapol",
+        "opening_hours": "Mo-Sa 09:00-01:00",
+        "ref:FR:SIRET": "52785087900018",
+        "website": "https://barapol.fr",
+        "website:booking": "https://barapol.fr/fr/booking",
+        "website:menu": "https://barapol.fr/fr/services"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7551897549,
+      "lat": 45.7529902,
+      "lon": 4.8529874,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Félix Faure",
+        "ref:FR:SIRET": "84921961300049"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7556356317,
+      "lat": 45.7993669,
+      "lon": 4.8471277,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-11-09",
+        "indoor_seating": "yes",
+        "name": "Le Goliath",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7573121384,
+      "lat": 45.8327153,
+      "lon": 4.8813454,
+      "tags": {
+        "amenity": "bar",
+        "name": "Chez Helene"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7573415021,
+      "lat": 45.7441376,
+      "lon": 4.8696472,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "120",
+        "addr:postcode": "69008",
+        "addr:street": "Avenue des Frères Lumière",
+        "amenity": "bar",
+        "cuisine": "tapas",
+        "indoor_seating": "yes",
+        "name": "Bar des Champ's",
+        "opening_hours": "Tu-Sa 07:30-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+33478007331",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7578578794,
+      "lat": 45.7684612,
+      "lon": 4.8359632,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-07-14",
+        "name": "Les Poupées Russes",
+        "ref:FR:SIRET": "38145436200025"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7580971615,
+      "lat": 45.7683272,
+      "lon": 4.830405,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:postcode": "69001",
+        "addr:street": "Rue de la Martinière",
+        "amenity": "bar",
+        "brewery": "orange mecanique;hara kiri;red is dead;tempête du désert;rousse @Mont-Blanc;Saison bio;Punk IPA;Big Job;La Trappe Isidor;Carolus Tripel;La Chouffe;Tank7;sex ale & rock n rolll",
+        "brewery:note": "sex ale and rock n rolll",
+        "indoor_seating": "yes",
+        "name": "Hopstore",
+        "opening_hours": "Mo-Su 10:00-01:00",
+        "outdoor_seating": "yes",
+        "website": "https://hopstorelyon.fr/#/home"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7589703671,
+      "lat": 45.761342,
+      "lon": 4.8318992,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-05-02",
+        "check_date:opening_hours": "2025-05-02",
+        "name": "Dix Huit Mètres Carré",
+        "opening_hours": "We-Sa 18:00-01:00",
+        "ref:FR:SIRET": "82140835800017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7610278195,
+      "lat": 45.7649787,
+      "lon": 4.8337015,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Boulevardier Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7610356827,
+      "lat": 45.7652598,
+      "lon": 4.8349263,
+      "tags": {
+        "amenity": "bar",
+        "capacity": "200",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "7",
+        "contact:phone": "+33 4 81 69 47 26",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Neuve",
+        "cuisine": "italian;pizza;pasta",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "name": "Carmelo - Big Mamma",
+        "opening_hours": "Mo-Fr 11:45-14:15,18:45-22:45; Sa 12:00-15:15,18:45-23:00; Su 12:00-15:15,18:45-22:45",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "83416827000025",
+        "reservation": "recommended",
+        "toilets": "yes",
+        "website": "https://www.bigmammagroup.com/fr/trattorias/carmelo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7610379739,
+      "lat": 45.7654604,
+      "lon": 4.8327736,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "1",
+        "addr:postcode": "69001",
+        "addr:street": "Rue Chavanne",
+        "amenity": "bar",
+        "email": "contact@legrisbi.fr",
+        "name": "Le Grisbi",
+        "opening_hours": "Tu-Sa 19:00-01:00",
+        "phone": "+33 66 949 46 30",
+        "ref:FR:SIRET": "83816654400026",
+        "website": "https://legrisbi.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7610501423,
+      "lat": 45.7669321,
+      "lon": 4.8350727,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33 9 74 64 03 75",
+        "name": "Chamax"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7615617419,
+      "lat": 45.7410975,
+      "lon": 4.8208492,
+      "tags": {
+        "amenity": "bar",
+        "amenity_1": "restaurant",
+        "name": "Conflutime",
+        "opening_hours": "Mo-Fr 10:00-23:30; Sa 15:00-23:30",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 37 57 43 55",
+        "ref:FR:SIRET": "83198940500020",
+        "website": "https://conflutime.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7778270645,
+      "lat": 45.4628421,
+      "lon": 4.7791226,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Paillote"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7783349437,
+      "lat": 45.7692247,
+      "lon": 4.8319487,
+      "tags": {
+        "addr:housenumber": "126",
+        "addr:street": "Montée de la Grande Côte",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2025-03-03",
+        "check_date:opening_hours": "2025-03-03",
+        "contact:housenumber": "126",
+        "harassment_prevention": "ask_angela",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "AlternatiBar - Maison des alternatives",
+        "opening_hours": "Th-Sa 18:00-24:00",
+        "outdoor_seating": "no",
+        "payment:cb": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+33 4 78 28 42 06",
+        "ref:FR:SIRET": "90285284700018",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:menstrual_products": "yes",
+        "toilets:wheelchair": "limited",
+        "website": "https://www.actionjusticeclimatlyon.fr/alternatibar",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7795049785,
+      "lat": 45.7645661,
+      "lon": 4.8271756,
+      "tags": {
+        "amenity": "bar",
+        "name": "La Traboule"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7958968034,
+      "lat": 45.7694151,
+      "lon": 4.853024,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-10-03",
+        "check_date:opening_hours": "2025-10-03",
+        "name": "Le Berkeley",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "90856398400024"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7987480640,
+      "lat": 45.7365802,
+      "lon": 4.842202,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2025-06-10",
+        "check_date:opening_hours": "2024-10-05",
+        "internet_access": "no",
+        "name": "La maison bleue",
+        "opening_hours": "Mo-Fr 08:00-01:00, Sa 17:00-01:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7997621826,
+      "lat": 45.7616302,
+      "lon": 4.8440574,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 3eme Arrondissement",
+        "contact:housenumber": "96",
+        "contact:instagram": "@bazar.lyon",
+        "contact:postcode": "69003",
+        "contact:street": "Rue Pierre Corneille",
+        "name": "Bazar",
+        "opening_hours": "Mo, Tu 12:00-14:00; We-Fr 12:00-14:00, 19:00-22:00",
+        "phone": "+33 4 78 60 21 28",
+        "ref:FR:SIRET": "91384650700014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8065834043,
+      "lat": 45.766287,
+      "lon": 4.8184734,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-03-21",
+        "contact:city": "Lyon 9eme Arrondissement",
+        "contact:housenumber": "42",
+        "contact:phone": "+33 6 58 57 54 64",
+        "contact:postcode": "69009",
+        "contact:street": "Quai De Pierre-Scize",
+        "name": "Bar Le 42",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "80002794800028"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8098209305,
+      "lat": 45.7627439,
+      "lon": 4.8284086,
+      "tags": {
+        "amenity": "bar",
+        "name": "American Bar",
+        "opening_hours": "Mo-Sa 20:00-04:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8098237064,
+      "lat": 45.7628703,
+      "lon": 4.8284427,
+      "tags": {
+        "amenity": "bar",
+        "name": "Since the Cavern"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8098269136,
+      "lat": 45.7632565,
+      "lon": 4.828971,
+      "tags": {
+        "amenity": "bar",
+        "name": "Black Hole",
+        "opening_hours": "Tu-Th 18:00-24:00, Fr,Sa 17:00-01:00",
+        "ref:FR:SIRET": "88469378900015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8098270240,
+      "lat": 45.7627604,
+      "lon": 4.8288482,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "17",
+        "contact:phone": "+33 6 18 37 95 69",
+        "contact:postcode": "69005",
+        "contact:street": "Quai Romain Rolland",
+        "name": "Big Easy - Cocktail Bar & Tapas",
+        "opening_hours": "We 18:30-23:59; Th-Fr 00:00-01:00, 18:30-23:59; Sa 00:00-03:00, 18:30-23:59; Su 00:00-03:00",
+        "ref:FR:SIRET": "97050494000010",
+        "website": "https://www.privateaser.com/lieu/40689-big-easy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8098278335,
+      "lat": 45.7631359,
+      "lon": 4.8289635,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "14",
+        "contact:phone": "+33478925080",
+        "drink:cocktail": "yes",
+        "name": "Ryoka",
+        "ref:FR:SIRET": "94109342900012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8108778708,
+      "lat": 45.7590777,
+      "lon": 4.8254627,
+      "tags": {
+        "amenity": "bar",
+        "name": "Les petits joueurs"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8108852030,
+      "lat": 45.7585864,
+      "lon": 4.8253433,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "20",
+        "addr:postcode": "69005",
+        "addr:street": "Rue Saint-Georges",
+        "amenity": "bar",
+        "check_date": "2023-07-12",
+        "name": "Imohtep Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8108892447,
+      "lat": 45.7589336,
+      "lon": 4.8260156,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-07-12",
+        "name": "Tata Mona"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8108966207,
+      "lat": 45.7569519,
+      "lon": 4.8244684,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Comptoir des Buvards"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8109003046,
+      "lat": 45.7595307,
+      "lon": 4.8255715,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "25",
+        "contact:phone": "+33 9 74 64 00 16",
+        "contact:postcode": "69005",
+        "contact:street": "Rue Tramassac",
+        "indoor_seating": "yes",
+        "name": "Oaï Resto Bar",
+        "opening_hours": "We-Fr 18:30-23:00; Sa 11:00-23:00; Su 11:00-15:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.privateaser.com/lieu/44448-oai-resto-bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8109830295,
+      "lat": 45.7682665,
+      "lon": 4.8437762,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "LesMarechauxLyon",
+        "email": "lesmarechauxlyon@gmail.com",
+        "name": "Les Maréchaux",
+        "phone": "+33 4 26 07 22 56",
+        "ref:FR:SIRET": "83409577000014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8117522046,
+      "lat": 45.7433852,
+      "lon": 4.8217146,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-09-25",
+        "name": "La Calanque",
+        "ref:FR:SIRET": "42897828200013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8118866901,
+      "lat": 45.7660256,
+      "lon": 4.832598,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "24",
+        "contact:phone": "+33422911798",
+        "name": "Octobre",
+        "opening_hours": "Mo-Fr 19:00-24:00",
+        "ref:FR:SIRET": "98299957500011",
+        "shop": "wine",
+        "website": "https://www.octobrecaviste.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8118959034,
+      "lat": 45.7665183,
+      "lon": 4.8281783,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "bernard.hamouth",
+        "contact:instagram": "le_dystopik",
+        "name": "Le Dystopik",
+        "opening_hours": "Tu-Sa 14:00-01:00; Su 14:00-00:00",
+        "phone": "+33 7 75 71 69 17",
+        "website": "https://ledystopik.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8118987038,
+      "lat": 45.7673734,
+      "lon": 4.8261563,
+      "tags": {
+        "amenity": "bar",
+        "name": "Shootbar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8126641319,
+      "lat": 45.7541291,
+      "lon": 4.8412688,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Jurassien",
+        "survey:date": "2020-11-16"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8151049719,
+      "lat": 45.764035,
+      "lon": 4.8438866,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Scorsese",
+        "ref:FR:SIRET": "53009480400016",
+        "survey:date": "2020-11-22",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8157810109,
+      "lat": 45.7471669,
+      "lon": 4.8243781,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Café Gaios",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8158445839,
+      "lat": 45.756079,
+      "lon": 4.8769158,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-11-01",
+        "name": "Brasserie de l'Étoile",
+        "ref:FR:SIRET": "78981395300013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8161996917,
+      "lat": 45.7570633,
+      "lon": 4.841943,
+      "tags": {
+        "amenity": "bar",
+        "name": "Multivers",
+        "old_name": "Cave des Lumières",
+        "ref:FR:SIRET": "93044572100028"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8165000119,
+      "lat": 45.7679052,
+      "lon": 4.8445134,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Chez Garbis",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:30-18:00",
+        "ref:FR:SIRET": "83972511600017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8165540521,
+      "lat": 45.7539447,
+      "lon": 4.8423508,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar des Artisans",
+        "survey:date": "2020-11-25"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8168847025,
+      "lat": 45.7515118,
+      "lon": 4.8486205,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "278",
+        "addr:postcode": "69007",
+        "addr:street": "Rue de Créqui",
+        "amenity": "bar",
+        "check_date": "2024-12-04",
+        "check_date:opening_hours": "2024-12-04",
+        "description": "Bar Retro Gaming",
+        "lgbtq": "welcome",
+        "name": "Puzzle Inn - Bar Retro Gaming",
+        "opening_hours": "Tu-Fr 17:00-01:00, Sa 13:00-01:00",
+        "ref:FR:SIRET": "85159606400010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8168847034,
+      "lat": 45.7513639,
+      "lon": 4.8475608,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Jupiter Bar",
+        "outdoor_seating": "no",
+        "survey:date": "2020-11-26"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8170665945,
+      "lat": 45.6053318,
+      "lon": 4.7812251,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'Esperia",
+        "opening_hours": "Tu-Sa 07:30-12:30,15:30-19:00; Su 08:00-12:00",
+        "outdoor_seating": "yes",
+        "phone": "+33478462575",
+        "takeaway": "no",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8180762817,
+      "lat": 45.7568384,
+      "lon": 4.8434042,
+      "tags": {
+        "amenity": "bar",
+        "name": "Boomerang",
+        "survey:date": "2020-11-30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8197463623,
+      "lat": 45.7468436,
+      "lon": 4.8433249,
+      "tags": {
+        "amenity": "bar",
+        "name": "Verso",
+        "ref:FR:SIRET": "53142351500018",
+        "survey:date": "2020-12-05"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8300633091,
+      "lat": 45.7399277,
+      "lon": 4.8406072,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "Tank;Budweiser;Kwak;Hoeggarden;Ginette;Tripel_Karmeliet;Chouffe;Leffe;Paix_Dieu",
+        "contact:facebook": "https://www.facebook.com/Tank-Lyon-109280200609766/about/?ref=page_internal",
+        "contact:phone": "+33437653653",
+        "name": "Le Tank",
+        "opening_hours": "Mo,Tu 12:00-14:30,17:00-23:30, We-Fr 12:00-14:30,17:00-01:00, Sa 18:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "52833936900027",
+        "website": "https://tank-lyon.fr/",
+        "website:menu": "https://tank-lyon.fr/fr/services"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8303473563,
+      "lat": 45.7672816,
+      "lon": 4.9806749,
+      "tags": {
+        "access": "no",
+        "addr:city": "Décines-Charpieu",
+        "addr:housenumber": "2",
+        "addr:postcode": "69150",
+        "addr:street": "Avenue Simone Veil",
+        "amenity": "bar",
+        "check_date": "2025-02-20",
+        "name": "Au Fût et à mesure",
+        "start_date": "2021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8385091824,
+      "lat": 45.7732327,
+      "lon": 4.8096206,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-01-02",
+        "indoor_seating": "yes",
+        "name": "Ziggy",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "93897338500017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8390835195,
+      "lat": 45.7662912,
+      "lon": 4.8183759,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "41",
+        "contact:phone": "+33 6 24 31 52 41",
+        "contact:street": "Quai De Pierre-Scize",
+        "name": "L'adresse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8600278031,
+      "lat": 45.769524,
+      "lon": 4.8317257,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33472057392",
+        "name": "TechNoir",
+        "opening_hours": "Su,Mo 16:00-24:00, Tu-Sa 16:00-01:00",
+        "ref:FR:SIRET": "81875435000010",
+        "sport": "table_soccer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8633108280,
+      "lat": 45.7585277,
+      "lon": 4.8368818,
+      "tags": {
+        "amenity": "bar",
+        "level": "0",
+        "name": "Le Théodore",
+        "survey:date": "2023-09-17"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8653047538,
+      "lat": 45.7779397,
+      "lon": 4.8342329,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "3",
+        "addr:postcode": "69004",
+        "addr:street": "Place Marcel Bertone",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "fauve;loqui;verdant;track;prizm;other_half;polly's;beak;les_intenables;sparkle;floc;left_handed_giant;vault_city;soma",
+        "contact:facebook": "https://www.facebook.com/carouselbeer",
+        "name": "Carousel",
+        "opening_hours": "Mo,Tu 16:00-23:00, Th-Sa 11:00-24:00, We,Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8653047543,
+      "lat": 45.7779154,
+      "lon": 4.835195,
+      "tags": {
+        "amenity": "bar",
+        "name": "Gogniols",
+        "opening_hours": "Th-Sa 12:00-14:00,19:00-21:00; Su,Mo 12:00-14:00",
+        "ref:FR:SIRET": "82165811900010"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8653047557,
+      "lat": 45.7748988,
+      "lon": 4.8309713,
+      "tags": {
+        "amenity": "bar",
+        "name": "Au Goût à Goutte",
+        "opening_hours": "Tu-Fr 15:00-24:00; Sa 11:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8662327803,
+      "lat": 45.7690455,
+      "lon": 4.8322338,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "1",
+        "contact:phone": "+33478394968",
+        "contact:street": "Rue des Capucins",
+        "drink:wine": "yes",
+        "name": "Satriale",
+        "opening_hours": "Tu-Th 16:00-21:30; Fr,Sa 11:00-14:00,16:00-22:00",
+        "ref:FR:SIRET": "88941563400019",
+        "website": "https://satriale.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8822458669,
+      "lat": 45.7484407,
+      "lon": 4.8551314,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-07-02",
+        "contact:facebook": "https://www.facebook.com/skulllyon7",
+        "email": "contact@skull-lyon.com",
+        "name": "Skull",
+        "opening_hours": "Tu,We 17:00-24:00; Th-Sa 17:00-01:00",
+        "ref:FR:SIRET": "85146187100010",
+        "website": "https://www.skull-lyon.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8839201599,
+      "lat": 45.4630776,
+      "lon": 4.7667115,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "Kronembourg",
+        "name": "Bar du centre",
+        "opening_hours": "Mo-Fr 06:00-21:00; Sa 07:00-22:00; Su 07:00-21:00",
+        "phone": "+33474598034",
+        "website": "https://cafe-du-centre-condrieu.edan.io/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9037819784,
+      "lat": 45.8192161,
+      "lon": 4.6628539,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Placebo",
+        "ref:FR:SIRET": "82229559800012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9210725304,
+      "lat": 45.8177997,
+      "lon": 4.9039957,
+      "tags": {
+        "amenity": "bar",
+        "name": "Chez Fabrice"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9428129225,
+      "lat": 45.7559499,
+      "lon": 4.8240702,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "Kilkenny;Kronenbourg;Grimbergen;Strongbow;Cervoise;Picon;Guinness",
+        "contact:city": "Lyon 5eme Arrondissement",
+        "contact:housenumber": "108",
+        "contact:phone": "+33 4 78 37 54 94",
+        "contact:postcode": "69005",
+        "contact:street": "Rue Saint-Georges",
+        "name": "L’antidote",
+        "opening_hours": "Mo-Su 18:00-01:00",
+        "ref:FR:SIRET": "44369689300017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9482949300,
+      "lat": 45.7961323,
+      "lon": 5.0462013,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Chez Gaget"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9545816424,
+      "lat": 45.8344064,
+      "lon": 4.9123954,
+      "tags": {
+        "addr:housenumber": "4960",
+        "addr:street": "Route de Strasbourg",
+        "alt_name": "Bar-tabac-PMU-Loto Le Vancia",
+        "amenity": "bar",
+        "brewery": "yes",
+        "indoor_seating": "yes",
+        "name": "Bar-tabac Le Vancia",
+        "outdoor_seating": "no",
+        "phone": "+33 4 78 88 20 27",
+        "wikimedia_commons": "File:Bar-tabac Le Vancia et Super Market Vancia à Vancia en février 2022.JPG"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9556101351,
+      "lat": 45.7626944,
+      "lon": 4.8351378,
+      "tags": {
+        "amenity": "bar",
+        "diet:vegetarian": "yes",
+        "food": "yes",
+        "name": "Pop and Wine",
+        "opening_hours": "Mo-Sa 12:00-14:00,17:00-22:30",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "78992994000052",
+        "website": "https://popandwine.fr",
+        "website:booking": "https://popandwine.fr/reservations"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9643262249,
+      "lat": 45.7338272,
+      "lon": 4.8637405,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "name": "Antiq'Bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9718251736,
+      "lat": 45.7615703,
+      "lon": 4.8322061,
+      "tags": {
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2025-09-18",
+        "contact:housenumber": "12",
+        "contact:phone": "+33782404620",
+        "food": "tapas",
+        "name": "Welsh Beer Bar",
+        "opening_hours": "16:00-01:00",
+        "ref:FR:SIRET": "87922529000029",
+        "website": "https://welshbeerbar.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9724632746,
+      "lat": 45.735977,
+      "lon": 4.8397598,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 7eme Arrondissement",
+        "contact:housenumber": "97",
+        "contact:postcode": "69007",
+        "contact:street": "Rue De Gerland",
+        "facebook": "https://www.facebook.com/profile.php?id=100063745833010",
+        "name": "Des Bulles Sous Le Plafond",
+        "opening_hours": "Mo 09:00-14:00, 16:00-23:00; Tu 09:00-14:00, 16:00-23:59; We-Fr 00:00-01:00, 09:00-14:00",
+        "phone": "+33 4 37 29 26 67",
+        "ref:FR:SIRET": "88170418300014",
+        "website": "https://www.desbullessousleplafond-restaurant-lyon.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9809304925,
+      "lat": 45.7588461,
+      "lon": 4.8364893,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "3",
+        "addr:postcode": "69002",
+        "addr:street": "Cour Saint-Henri",
+        "amenity": "bar",
+        "level": "0",
+        "name": "L’Officine",
+        "opening_hours": "Tu-Th 18:30-00:00; Fr, Sa 18:30-01:00",
+        "phone": "+33 4 72 41 84 96",
+        "terrace": "roofed",
+        "website": "https://www.legrandrefectoire.com/officine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9933572611,
+      "lat": 45.4630906,
+      "lon": 4.7660405,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Papou",
+        "ref:FR:SIRET": "39113945800023"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9981846088,
+      "lat": 45.8337121,
+      "lon": 4.8476757,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Brass'in",
+        "opening_hours": "Mo 16:00-19:00; Tu,We,Fr,Sa 09:30-19:30; Th 09:30-21:30; Su 09:30-12:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10056222330,
+      "lat": 45.7745655,
+      "lon": 4.8276338,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Vitis",
+        "ref:FR:SIRET": "84490989500014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10082772350,
+      "lat": 45.775035,
+      "lon": 4.8294574,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "2",
+        "addr:postcode": "69004",
+        "addr:street": "Rue Perrod",
+        "amenity": "bar",
+        "contact:email": "burning.cat.lyon@gmail.com",
+        "contact:facebook": "https://facebook.com/BurningCatLyon",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0;1",
+        "name": "Burning Cat",
+        "opening_hours": "Mo 06:00-23:00; Tu 09:00-01:00; We-Fr 11:00-01:00; Sa 10:00-01:00; Su 10:00-01:00",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "91794402700015",
+        "source": "survey",
+        "toilets": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10086749488,
+      "lat": 45.74457,
+      "lon": 4.8259584,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "12",
+        "addr:postcode": "69002",
+        "addr:street": "Rue Marc-Antoine Petit",
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "12",
+        "contact:phone": "+33 6 37 91 21 00",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Marc-Antoine Petit",
+        "cuisine": "american",
+        "name": "The Hill Club",
+        "old_name": "Le Chalut",
+        "opening_hours": "Mo-Su 12:00-14:00,19:00-22:00",
+        "phone": "+33472777070",
+        "terrace": "yes",
+        "website": "https://www.the-hill-club.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10126449464,
+      "lat": 45.7554184,
+      "lon": 4.8748444,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "230",
+        "addr:postcode": "69003",
+        "addr:street": "Avenue Félix Faure",
+        "amenity": "bar",
+        "check_date": "2025-07-13",
+        "check_date:opening_hours": "2025-07-13",
+        "contact:instagram": "https://www.instagram.com/Le_volff_lyon",
+        "name": "Le Volff",
+        "opening_hours": "15:30-01:00",
+        "ref:FR:SIRET": "84054791300011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10132441471,
+      "lat": 45.7807501,
+      "lon": 4.8365611,
+      "tags": {
+        "amenity": "bar",
+        "name": "Jerovine Bar",
+        "ref:FR:SIRET": "53767010100014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10242368588,
+      "lat": 45.7733812,
+      "lon": 4.8084084,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes",
+        "contact:city": "Lyon 9eme Arrondissement",
+        "contact:housenumber": "3",
+        "contact:phone": "+33 4 72 48 78 68",
+        "contact:postcode": "69009",
+        "contact:street": "Rue Saint-Pierre De Vaise",
+        "description": "Cave & Bar à bières artisanales",
+        "internet_access": "wlan",
+        "min_age": "18",
+        "name": "La Plante Du Loup",
+        "opening_hours": "Mo-Th 16:00-23:00; Fr 11:00-14:00,16:00-23:00; Sa 11:00-23:00",
+        "survey:date": "2023-03-21",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10253247609,
+      "lat": 45.7666722,
+      "lon": 4.850106,
+      "tags": {
+        "addr:housenumber": "71",
+        "addr:postcode": "69006",
+        "addr:street": "Rue Bugeaud",
+        "amenity": "bar",
+        "board_games": "yes",
+        "contact:phone": "+33983893422",
+        "food": "yes",
+        "harassment_prevention": "ask_angela",
+        "name": "Tire-toi une bûche",
+        "opening_hours": "Tu-We 12:00-00:00; Fr 12:00-01:00; Sa 16:30-01:00; Th 12:00-15:00, 17:00-01:00",
+        "ref:FR:SIRET": "90014130000013",
+        "website": "https://tiretoiunebuche.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10262502309,
+      "lat": 45.7775866,
+      "lon": 4.9937071,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar des Amis II"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10308916817,
+      "lat": 45.7346128,
+      "lon": 4.8039977,
+      "tags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10684425059,
+      "lat": 45.7293216,
+      "lon": 4.8529959,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon",
+        "contact:housenumber": "168",
+        "contact:postcode": "69008",
+        "contact:street": "Rue Challemel-Lacour",
+        "name": "Bar du Moulin d'Or",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10762149404,
+      "lat": 45.7692292,
+      "lon": 4.8364726,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bambi",
+        "opening_hours": "We-Sa 18:00-01:00",
+        "ref:FR:SIRET": "93009640900014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10795791548,
+      "lat": 45.7749449,
+      "lon": 4.8288781,
+      "tags": {
+        "amenity": "bar",
+        "name": "Gourmet Croix Rousse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10822403731,
+      "lat": 45.7687199,
+      "lon": 4.8296478,
+      "tags": {
+        "amenity": "bar",
+        "name": "Paradox",
+        "opening_hours": "Mo,Tu 10:00-20:00; We,Th 10:00-23:00; Fr,Sa 10:00-01:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10847024368,
+      "lat": 45.8162911,
+      "lon": 4.874813,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Bar Dulion",
+        "opening_hours": "Tu-Fr 16:00-21:00; Sa 14:00-16:00 \"Visite brasserie, sur rendez-vous seulement\"",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10874188705,
+      "lat": 45.708973,
+      "lon": 4.8539074,
+      "tags": {
+        "addr:city": "Saint-Fons",
+        "addr:postcode": "69190",
+        "addr:street": "Rue Charles Plasse",
+        "amenity": "bar",
+        "cuisine": "african",
+        "name": "Le 225",
+        "smoking": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176700426,
+      "lat": 45.7689581,
+      "lon": 4.8315037,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-03-09",
+        "check_date:opening_hours": "2025-03-09",
+        "currency:XBT": "yes",
+        "name": "Soif !",
+        "opening_hours": "Mo,Su off; Tu-Sa 16:00-01:00",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "phone": "+33 6 43 14 83 34",
+        "ref:FR:SIRET": "95221639800026",
+        "smoking": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11212411784,
+      "lat": 45.769898,
+      "lon": 4.8582988,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Jobaar",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "91372978600016",
+        "website": "https://jobaar.fr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11226476140,
+      "lat": 45.8214126,
+      "lon": 4.8761514,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le Terminal",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11234124637,
+      "lat": 45.7656061,
+      "lon": 4.8316974,
+      "tags": {
+        "amenity": "bar",
+        "name": "United café"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11248543633,
+      "lat": 45.7592695,
+      "lon": 4.8315857,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2024-11-30",
+        "check_date:opening_hours": "2024-11-30",
+        "contact:phone": "+33660086332",
+        "name": "PoliGone",
+        "opening_hours": "We-Sa 17:00-01:00, Su 17:00-23:00, Tu 18:00-24:00",
+        "ref:FR:SIRET": "89897525500016",
+        "website": "https://www.poligone-bar-lyon.fr",
+        "website:menu": "https://www.poligone-bar-lyon.fr/drinksfoodjuly"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11248565069,
+      "lat": 45.760245,
+      "lon": 4.830884,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-03-03",
+        "check_date:opening_hours": "2025-03-03",
+        "name": "O'Quai Wine",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "53276827200017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11257968973,
+      "lat": 45.7716368,
+      "lon": 4.835394,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "37",
+        "contact:phone": "+33 9 74 64 02 19",
+        "contact:postcode": "69001",
+        "contact:street": "Rue Imbert-Colomès",
+        "name": "La Bonne Gâche",
+        "opening_hours": "Mo 18:30-23:59; Tu 17:30-23:59; We-Sa 00:00-01:00, 17:30-23:59; Su 00:00-01:00",
+        "phone": "+33478391295",
+        "ref:FR:SIRET": "90155939300011",
+        "website": "https://www.privateaser.com/lieu/41126-la-bonne-gache"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11269535553,
+      "lat": 45.4932194,
+      "lon": 4.8199846,
+      "tags": {
+        "amenity": "bar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11278148669,
+      "lat": 45.7698773,
+      "lon": 4.8342518,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2023-10-20",
+        "level": "0",
+        "name": "Catie‘s",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11360219969,
+      "lat": 45.7681989,
+      "lon": 4.8328274,
+      "tags": {
+        "amenity": "bar",
+        "contact:phone": "+33 6 59 19 26 71",
+        "name": "Manneken-Pis",
+        "opening_hours": "Mo-Su 17:00-03:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11364389769,
+      "lat": 45.7677616,
+      "lon": 4.819245,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-03-11",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "12",
+        "contact:phone": "+33 6 64 05 69 10",
+        "contact:postcode": "69001",
+        "contact:street": "Quai Saint-Vincent",
+        "name": "Distrikt Xii",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "52162746300016"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11364396769,
+      "lat": 45.7678896,
+      "lon": 4.8338274,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 1er Arrondissement",
+        "contact:housenumber": "2",
+        "contact:phone": "+33 6 35 38 55 58",
+        "contact:postcode": "69001",
+        "contact:street": "Place Des Terreaux",
+        "fixme": "Créé par un compte problématique. Commerce impossible à retrouver.",
+        "name": "L'abbaye"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11366289969,
+      "lat": 45.7509023,
+      "lon": 4.8245639,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "3",
+        "contact:postcode": "69002",
+        "contact:street": "Cours Verdun Gensoul",
+        "name": "Calle Latino",
+        "opening_hours": "Tu-Th 18:30-23:59; Fr 00:00-01:00, 18:30-23:59; Sa 00:00-03:00, 18:30-23:59; Su 00:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 51 23 54 30",
+        "ref:FR:SIRET": "90998775200013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11366310169,
+      "lat": 45.7423518,
+      "lon": 4.8210855,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "16",
+        "contact:phone": "+33 6 22 74 18 95",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Casimir Périer",
+        "name": "Nutopia Lyon",
+        "ref:FR:SIRET": "90225495200028"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11428238270,
+      "lat": 45.7516421,
+      "lon": 4.8324294,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-04-25",
+        "name": "L'escale",
+        "opening_hours": "Mo-Su 17:00-04:00",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "43959287400010",
+        "website": "https://sites.google.com/view/lescale/accueil"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11722595087,
+      "lat": 45.7653605,
+      "lon": 4.8721242,
+      "tags": {
+        "addr:housenumber": "79",
+        "addr:postcode": "69100",
+        "addr:street": "Rue Louis Becker",
+        "amenity": "bar",
+        "name": "La Pavane Villeurbanne",
+        "opening_hours": "Mo-We 12:00-00:00; Th-Fr 12:00-01:00; Sa 17:00-01:00; Su 12:00-18:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+33 4 81 91 10 97",
+        "ref:FR:SIRET": "97838279400029",
+        "survey:date": "2024-03-12",
+        "website": "https://linktr.ee/pavanevilleurbanne"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11844562771,
+      "lat": 45.7658034,
+      "lon": 4.827764,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-03-04",
+        "name": "Barãgones",
+        "opening_hours:signed": "no",
+        "website": "https://www.baragones.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11956709278,
+      "lat": 45.7610079,
+      "lon": 4.8849036,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-03-02",
+        "indoor_seating": "yes",
+        "name": "Le Titis Bar",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "40044761100015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11984298292,
+      "lat": 45.7692439,
+      "lon": 4.8171683,
+      "tags": {
+        "amenity": "bar",
+        "cocktails": "yes",
+        "contact:instagram": "abstract_bistrot_",
+        "email": "abstract.bistrot@gmail.com",
+        "name": "Abstract",
+        "opening_hours": "Th-Su 16:00-23:00",
+        "phone": "+33478988455",
+        "ref:FR:SIRET": "95169113800014",
+        "website": "https://www.abstract-lab.art/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11999611939,
+      "lat": 45.7118395,
+      "lon": 5.1123306,
+      "tags": {
+        "addr:city": "Colombier-Saugnieu",
+        "addr:country": "FR",
+        "addr:housenumber": "101",
+        "addr:postcode": "69124",
+        "addr:street": "Route du Dauphiné",
+        "amenity": "bar",
+        "name": "Le Petit Colombier",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-12:30",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 32 80 38",
+        "shop": "newsagent",
+        "tobacco": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12006559171,
+      "lat": 45.7852832,
+      "lon": 4.8943549,
+      "tags": {
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/guinguettedonjose",
+        "contact:instagram": "https://www.instagram.com/restaurant_don_jose/",
+        "name": "Don José",
+        "phone": "+33 6 73 04 01 02"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12019762663,
+      "lat": 45.7488918,
+      "lon": 4.8619846,
+      "tags": {
+        "amenity": "bar",
+        "name": "L'horacio",
+        "ref:FR:SIRET": "80797211200021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12159391114,
+      "lat": 45.7694628,
+      "lon": 4.8647425,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-02-14",
+        "name": "L'Annexe",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "52334636900011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12162016260,
+      "lat": 45.7686474,
+      "lon": 4.8508829,
+      "tags": {
+        "amenity": "bar",
+        "name": "Béguin",
+        "ref:FR:SIRET": "98023150000011"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12260669922,
+      "lat": 45.7413439,
+      "lon": 4.8154651,
+      "tags": {
+        "amenity": "bar",
+        "harassment_prevention": "ask_angela",
+        "name": "Gourmet bar Novotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12266037501,
+      "lat": 45.7651211,
+      "lon": 4.8680671,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:postcode": "69006",
+        "addr:street": "Rue Notre-Dame",
+        "amenity": "bar",
+        "name": "Las Palmeras",
+        "ref:FR:SIRET": "91980472400020"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12266037502,
+      "lat": 45.7652883,
+      "lon": 4.8681174,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:postcode": "69006",
+        "addr:street": "Rue Notre-Dame",
+        "amenity": "bar",
+        "name": "L'Aristide",
+        "ref:FR:SIRET": "81986572600015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12270577501,
+      "lat": 45.766235,
+      "lon": 4.8670908,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar du Sagittaire",
+        "opening_hours": "Mo-Sa 07:00-10:00",
+        "ref:FR:SIRET": "38313482200014"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12278921766,
+      "lat": 45.774493,
+      "lon": 4.8061657,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Pélo",
+        "outdoor_seating": "yes",
+        "ref:FR:SIRET": "95333828200015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12280016297,
+      "lat": 45.7664862,
+      "lon": 4.8450588,
+      "tags": {
+        "amenity": "bar",
+        "food": "yes",
+        "name": "Levantia",
+        "opening_hours": "Tu-Sa 17:30-01:00",
+        "ref:FR:SIRET": "90865073200021"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12297734601,
+      "lat": 45.7621585,
+      "lon": 4.8374504,
+      "tags": {
+        "amenity": "bar",
+        "name": "Cafe Comptoir-Bar a Vins"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12359904185,
+      "lat": 45.7447472,
+      "lon": 4.86813,
+      "tags": {
+        "amenity": "bar",
+        "name": "Ma Taverne"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12390555503,
+      "lat": 45.7753649,
+      "lon": 4.8316468,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 4eme Arrondissement",
+        "contact:housenumber": "4",
+        "contact:phone": "+33 6 11 34 21 50",
+        "contact:postcode": "69004",
+        "contact:street": "Rue Victor Fort",
+        "name": "Pienza Aperitivo",
+        "opening_hours": "Tu-Fr 17:30-24:00, Sa 16:00-01:00",
+        "ref:FR:SIRET": "92796580600015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12509519801,
+      "lat": 45.7622666,
+      "lon": 4.8329367,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 2eme Arrondissement",
+        "contact:housenumber": "53",
+        "contact:postcode": "69002",
+        "contact:street": "Rue Mercière",
+        "name": "Le Biniou",
+        "survey:date": "2025-04-26"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12518347001,
+      "lat": 45.7692161,
+      "lon": 4.8004801,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 9eme Arrondissement",
+        "contact:housenumber": "79",
+        "contact:phone": "+33 4 28 38 24 57",
+        "contact:postcode": "69009",
+        "contact:street": "Rue Gorge de Loup",
+        "name": "Le petit marché d'une faim d'apprendre",
+        "ref:FR:SIRET": "83335670200047"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12581811001,
+      "lat": 45.7392689,
+      "lon": 4.8279503,
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:postcode": "69007",
+        "addr:street": "Rue des Girondins",
+        "amenity": "bar",
+        "name": "Tabac les Girondins",
+        "ref:FR:SIRET": "53509127600027"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12587541745,
+      "lat": 45.7609215,
+      "lon": 4.83425,
+      "tags": {
+        "amenity": "bar",
+        "name": "Le B'ARTISTE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12606866033,
+      "lat": 45.7215879,
+      "lon": 4.6941329,
+      "tags": {
+        "addr:city": "Brindas",
+        "addr:housenumber": "62",
+        "addr:postcode": "69126",
+        "addr:street": "Rue du Vieux Bourg",
+        "amenity": "bar",
+        "name": "Le 62"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12650341901,
+      "lat": 45.6952342,
+      "lon": 4.7943389,
+      "tags": {
+        "amenity": "bar",
+        "name": "Zest'y House",
+        "old_name": "Twin Beers",
+        "opening_hours": "We 17:30-21:30; Th,Fr 16:30-23:00; Sa 16:00-23:00; Su 15:00-19:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12733012281,
+      "lat": 45.7670546,
+      "lon": 4.8220034,
+      "tags": {
+        "amenity": "bar",
+        "name": "New Allstar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12754643043,
+      "lat": 45.7498253,
+      "lon": 4.8460842,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bambane",
+        "opening_hours": "Tu 18:00-23:30; We-Sa 10:30-14:30,18:00-23:30; Su 09:00-15:00",
+        "ref:FR:SIRET": "93879865900026"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12888260001,
+      "lat": 45.6733599,
+      "lon": 4.8233903,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Irigny",
+        "contact:housenumber": "8",
+        "contact:phone": "+33 9 78 81 03 24",
+        "contact:postcode": "69540",
+        "contact:street": "Rue Baudrand",
+        "name": "Wanna Beer",
+        "opening_hours": "Tu-Th 16:30-23:00; Fr-Sa 16:30-24:00",
+        "payment:american_express": "yes",
+        "payment:cheque": "no",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "payment:diners_club": "no",
+        "payment:discover_card": "no",
+        "payment:jcb": "no",
+        "payment:mastercard": "yes",
+        "payment:unionpay": "no",
+        "payment:visa": "yes",
+        "ref:FR:SIRET": "95360356000012",
+        "website": "https://wannabeer.fr/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12899046395,
+      "lat": 45.7849403,
+      "lon": 4.7213326,
+      "tags": {
+        "alt_name": "Les Jardins Gourmands du Domaine de Lacroix-Laval",
+        "amenity": "bar",
+        "name": "Les Jardins Gourmands",
+        "phone": "+33 7 71 03 06 47",
+        "website": "https://lesjardinsgourmandsduparclacroixlaval.eatbu.com/?lang=fr#menu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12922161153,
+      "lat": 45.7035189,
+      "lon": 4.8235218,
+      "tags": {
+        "amenity": "bar",
+        "name": "Go on Rock"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12948763052,
+      "lat": 45.7647141,
+      "lon": 4.8914154,
+      "tags": {
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Bar Presse du 4 août",
+        "opening_hours": "Mo-Fr 07:00-14:00; Sa,Su 08:00-13:00",
+        "outdoor_seating": "no",
+        "ref:FR:SIRET": "43319935300015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12954211701,
+      "lat": 45.7841771,
+      "lon": 4.8527224,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 6eme Arrondissement",
+        "contact:housenumber": "81",
+        "contact:phone": "+33 9 74 64 17 53",
+        "contact:postcode": "69006",
+        "contact:street": "Quai Charles de Gaulle",
+        "name": "Mac Bar",
+        "ref:FR:SIRET": "95204909600029"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12969063978,
+      "lat": 45.6585659,
+      "lon": 4.5646888,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar les Fagotiers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12994161098,
+      "lat": 45.742905,
+      "lon": 4.8165537,
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "5",
+        "addr:postcode": "69002",
+        "addr:street": "Quai Antoine Riboud",
+        "amenity": "bar",
+        "name": "Lo'Ben Bar",
+        "opening_hours": "Mo-Su 14:00-23:00",
+        "phone": "+33 4 81 91 42 73"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13015094288,
+      "lat": 45.7692679,
+      "lon": 4.8882918,
+      "tags": {
+        "amenity": "bar",
+        "description": "Le café associatif de la Cantina est ouvert à toutes et tous.",
+        "name": "Café La Cantina",
+        "opening_hours": "Th,Fr 11:00-17:30",
+        "operator": "L'Archipel",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13070389450,
+      "lat": 45.7679156,
+      "lon": 4.8789637,
+      "tags": {
+        "amenity": "bar",
+        "check_date:opening_hours": "2025-08-31",
+        "name": "Le Petit Bar",
+        "opening_hours:signed": "no",
+        "ref:FR:SIRET": "39326718200037"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13123200185,
+      "lat": 45.8568142,
+      "lon": 4.7036109,
+      "tags": {
+        "addr:city": "Civrieux-d'Azergues",
+        "addr:postcode": "69380",
+        "addr:street": "Route de la Vallée",
+        "amenity": "bar",
+        "brewery": "various",
+        "name": "SoBeer",
+        "opening_hours": "Mo-Fr 10:00-01:00; Sa 10:00-15:00,18:00-01:00",
+        "phone": "+33 4 78 43 11 60",
+        "website": "https://sobeer.fr/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13128153819,
+      "lat": 45.6878987,
+      "lon": 5.0460367,
+      "tags": {
+        "amenity": "bar",
+        "check_date": "2025-09-08",
+        "name": "Kim Bar Restaurant",
+        "ref:FR:SIRET": "81162044200012"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13275803447,
+      "lat": 45.7676293,
+      "lon": 4.837294,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "22",
+        "name": "Espit Chupitos",
+        "ref:FR:SIRET": "80419513900030",
+        "website": "https://www.espitchupitos.com/lyon/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13368990854,
+      "lat": 45.7675751,
+      "lon": 4.8577755,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "43",
+        "name": "bohème",
+        "opening_hours": "Tu-Sa 18:00-01:00",
+        "ref:FR:SIRET": "79375158700015"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13415078290,
+      "lat": 45.7963472,
+      "lon": 5.0462906,
+      "tags": {
+        "amenity": "bar",
+        "description": "Cocktails santé, détox, hydratation. Accompagnement nutritionnel.",
+        "name": "Shake Your Good Vibes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13481883263,
+      "lat": 45.7693219,
+      "lon": 4.879968,
+      "tags": {
+        "amenity": "bar",
+        "contact:housenumber": "170",
+        "name": "Le bar ouf",
+        "outdoor_seating": "sidewalk",
+        "ref:FR:SIRET": "88193719700013"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13499097102,
+      "lat": 45.7683185,
+      "lon": 4.8072807,
+      "tags": {
+        "amenity": "bar",
+        "contact:city": "Lyon 9eme Arrondissement",
+        "contact:housenumber": "55 ter",
+        "contact:phone": "+33 9 77 93 97 26",
+        "contact:postcode": "69009",
+        "contact:street": "Avenue René Cassin",
+        "name": "Poissonchat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13516353736,
+      "lat": 45.7011319,
+      "lon": 4.883493,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar du cinéma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62291561,
+      "center": {
+        "lat": 45.769989,
+        "lon": 4.8504268
+      },
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "47",
+        "addr:postcode": "69006",
+        "addr:street": "Rue Garibaldi",
+        "amenity": "bar",
+        "building": "residential",
+        "building:levels": "5",
+        "name": "Tic & Tac",
+        "opening_hours": "Mo-Sa 17:00–01:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 7 71 85 48 59",
+        "roof:shape": "many",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "website": "https://tic-et-tac-bar.fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67482633,
+      "center": {
+        "lat": 45.7060073,
+        "lon": 4.8154269
+      },
+      "tags": {
+        "addr:city": "Pierre-Bénite",
+        "addr:housenumber": "63",
+        "addr:postcode": "69310",
+        "addr:street": "Rue Paul Vaillant-Couturier",
+        "amenity": "bar",
+        "building": "yes",
+        "layer": "-1",
+        "location": "surface",
+        "name": "Bar de la Terasse",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 76137646,
+      "center": {
+        "lat": 45.6470154,
+        "lon": 4.9094186
+      },
+      "tags": {
+        "addr:city": "Corbas",
+        "addr:housenumber": "300",
+        "addr:street": "Route de Marennes",
+        "alt_name": "Javoo",
+        "amenity": "bar",
+        "building": "yes",
+        "cuisine": "tapas",
+        "name": "Javoō",
+        "old_name": "Le Habana",
+        "old_name:fr": "Ultra;Le Habana",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85000005,
+      "center": {
+        "lat": 45.7738721,
+        "lon": 4.8678757
+      },
+      "tags": {
+        "addr:city": "Villeurbanne",
+        "addr:country": "FR",
+        "addr:housenumber": "18",
+        "addr:postcode": "69100",
+        "addr:street": "Place Wilson",
+        "amenity": "bar",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2025-06-07",
+        "check_date:opening_hours": "2025-06-07",
+        "indoor_seating": "yes",
+        "name": "Buvette de la place Wilson",
+        "opening_hours": "Mo-Sa 17:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+33 4 78 89 96 63",
+        "roof:levels": "0",
+        "roof:shape": "many",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 125551305,
+      "center": {
+        "lat": 45.7628404,
+        "lon": 4.7980072
+      },
+      "tags": {
+        "amenity": "bar",
+        "building": "yes",
+        "layer": "1",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 137302656,
+      "center": {
+        "lat": 45.765835,
+        "lon": 4.6982025
+      },
+      "tags": {
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Le P'tit Quincieux",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 217996220,
+      "center": {
+        "lat": 45.7617773,
+        "lon": 4.8403885
+      },
+      "tags": {
+        "alt_name": "Café Oz",
+        "amenity": "bar",
+        "building": "boat",
+        "capacity": "750",
+        "name": "Oz Boat",
+        "opening_date": "Apr 2024",
+        "survey:date": "2024-07-25",
+        "website": "https://cafe-oz.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 297180031,
+      "center": {
+        "lat": 45.708861,
+        "lon": 4.88694
+      },
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar Tabac Presse",
+        "shop": "tobacco"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372660775,
+      "center": {
+        "lat": 45.7367152,
+        "lon": 4.8145631
+      },
+      "tags": {
+        "addr:city": "Lyon",
+        "addr:housenumber": "47",
+        "addr:postcode": "69002",
+        "addr:street": "Quai Rambaud",
+        "amenity": "bar",
+        "building": "boat",
+        "diet:vegetarian": "yes",
+        "name": "Loupika",
+        "opening_hours": "Th-Su 21:00-04:00, We 20:00-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+33984362821",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 630985144,
+      "center": {
+        "lat": 45.7507333,
+        "lon": 4.8203487
+      },
+      "tags": {
+        "alt_name": "Sonic Lyon",
+        "amenity": "bar",
+        "building": "houseboat",
+        "contact:facebook": "https://www.facebook.com/SonicLyon",
+        "contact:instagram": "https://www.instagram.com/sonic_lyon/",
+        "email": "contact@sonic-lyon.fr",
+        "lgbtq": "welcome",
+        "name": "Le Sonic",
+        "website": "https://sonic-lyon.fr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 633838101,
+      "center": {
+        "lat": 45.4602533,
+        "lon": 4.7773965
+      },
+      "tags": {
+        "amenity": "bar",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 633847117,
+      "center": {
+        "lat": 45.4580919,
+        "lon": 4.7727605
+      },
+      "tags": {
+        "amenity": "bar",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1003522592,
+      "center": {
+        "lat": 45.7844367,
+        "lon": 4.8990593
+      },
+      "tags": {
+        "addr:housenumber": "18",
+        "amenity": "bar",
+        "brewery": "yes",
+        "building": "yes",
+        "name": "La Fabrique Rhôniste",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1036085117,
+      "center": {
+        "lat": 45.719387,
+        "lon": 4.8943825
+      },
+      "tags": {
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Buvette",
+        "opening_hours": "De fin mars à début novembre. Mer : 13h-19h Sam, Dim et jrs fériés : 10h-19h"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079744695,
+      "center": {
+        "lat": 45.7617257,
+        "lon": 4.855956
+      },
+      "tags": {
+        "amenity": "bar",
+        "indoor": "room",
+        "level": "3",
+        "name": "Bentomania"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324402653,
+      "center": {
+        "lat": 45.7602822,
+        "lon": 4.859108
+      },
+      "tags": {
+        "amenity": "bar",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Daniel & Denise en voyage",
+        "opening_hours": "Mo-Sa 06:45-21:30; Su,PH 07:00-21:30"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
+import { useState, useEffect } from "react";
+import { motion } from "motion/react";
 
 interface CasinoWheelProps {
   options: string[];
@@ -7,13 +7,22 @@ interface CasinoWheelProps {
   spinTrigger?: number;
 }
 
-export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWheelProps) {
+export function CasinoWheel({
+  options,
+  onSpinComplete,
+  spinTrigger,
+}: CasinoWheelProps) {
   const [offset, setOffset] = useState(0);
   const [isSpinning, setIsSpinning] = useState(false);
-  const [finalIndex, setFinalIndex] = useState(0);
 
   // Create a long repeating array for smooth scrolling
-  const repeatedOptions = [...options, ...options, ...options, ...options, ...options];
+  const repeatedOptions = [
+    ...options,
+    ...options,
+    ...options,
+    ...options,
+    ...options,
+  ];
 
   useEffect(() => {
     if (spinTrigger && spinTrigger > 0) {
@@ -25,29 +34,60 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
     if (isSpinning) return;
 
     setIsSpinning(true);
-    
-    // Random final position
-    const randomIndex = Math.floor(Math.random() * options.length);
-    setFinalIndex(randomIndex);
-    
-    // Calculate total distance to travel
-    // We want to spin through many items and land on the selected one
-    const itemHeight = 120; // Height of each item in pixels
-    const visibleStart = 2; // Start from the 3rd item in repeated array
-    const spinsBeforeLanding = 60; // Number of items to pass before landing
-    const targetPosition = (visibleStart + spinsBeforeLanding + randomIndex) * itemHeight;
-    
-    setOffset(targetPosition);
-  };
 
-  const handleAnimationComplete = () => {
-    if (isSpinning) {
+    // Calculate total distance to travel
+    const itemHeight = 120;
+    const visibleStart = 2;
+    const spinsBeforeLanding = 60;
+
+    // Random position to land on
+    const randomOffset = Math.floor(Math.random() * options.length);
+    const finalPositionInArray =
+      visibleStart + spinsBeforeLanding + randomOffset;
+    const targetPosition = finalPositionInArray * itemHeight - 140;
+
+    console.log("Random offset:", randomOffset);
+    console.log("Final position in array:", finalPositionInArray);
+    console.log("Target position:", targetPosition);
+
+    setOffset(targetPosition);
+
+    // After animation completes, calculate which item is actually in the center
+    setTimeout(() => {
       setIsSpinning(false);
-      const result = options[finalIndex];
+
+      // Calculate which item ended up in the center
+      const itemHeight = 120;
+      const paddingTop = 140;
+
+      // The red box is at 200px from the top (middle of 400px container)
+      // We need to find which item is at this position
+      const redBoxCenter = 200;
+
+      // The actual Y position of items in the scrolling container
+      // offset is how much we've scrolled down
+      // paddingTop is the initial padding
+      // Use targetPosition instead of offset state variable
+      const itemAtCenter =
+        (targetPosition + redBoxCenter - paddingTop) / itemHeight;
+      const centerIndex = Math.round(itemAtCenter);
+
+      console.log("Target position:", targetPosition);
+      console.log("Item at center calculation:", itemAtCenter);
+      console.log("Center index in repeated array:", centerIndex);
+      console.log("Item at center:", repeatedOptions[centerIndex]);
+
+      // Convert back to original array index
+      const resultIndex = centerIndex % options.length;
+      const result = options[resultIndex];
+
+      console.log("Result index:", resultIndex);
+      console.log("Final result:", result);
+
       if (onSpinComplete) {
         onSpinComplete(result);
       }
-    }
+    }, 20000); // Match the animation duration
   };
 
   return (
@@ -60,9 +100,7 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
             <div
               key={i}
               className={`w-3 h-3 rounded-full ${
-                isSpinning
-                  ? 'bg-yellow-400 animate-pulse'
-                  : 'bg-yellow-600/50'
+                isSpinning ? "bg-yellow-400 animate-pulse" : "bg-yellow-600/50"
               }`}
               style={{
                 animationDelay: `${i * 0.1}s`,
@@ -75,13 +113,13 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
         <div className="relative bg-black rounded-2xl p-4 mt-6 mb-6 h-[400px] overflow-hidden border-4 border-yellow-600/30">
           {/* Scanlines effect */}
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-yellow-500/5 to-transparent pointer-events-none z-10"></div>
-          
+
           {/* Selection indicator - red box in the middle */}
           <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-[120px] border-4 border-red-500 bg-red-500/10 z-10 pointer-events-none rounded-lg"></div>
 
           {/* Top fade mask */}
           <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-black to-transparent z-20 pointer-events-none"></div>
-          
+
           {/* Bottom fade mask */}
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent z-20 pointer-events-none"></div>
 
@@ -92,16 +130,21 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
             animate={{ y: -offset }}
             transition={{
               duration: isSpinning ? 20 : 0,
-              ease: [0.25, 0.46, 0.45, 0.94], // Smooth easing that slows down at the end
+              ease: [0.25, 0.46, 0.45, 0.94],
             }}
-            onAnimationComplete={handleAnimationComplete}
             style={{
-              paddingTop: '140px', // Center the first item
+              paddingTop: "140px",
             }}
           >
             {repeatedOptions.map((pub, index) => {
-              const isMiddleItem = offset > 0 && Math.abs((offset - index * 120) % 120) < 10;
-              
+              const itemHeight = 120;
+              const itemYPosition = index * itemHeight;
+              const viewportCenter = offset + 200;
+              const distanceFromCenter = Math.abs(
+                itemYPosition - viewportCenter,
+              );
+              const isMiddleItem = distanceFromCenter < itemHeight / 2;
+
               return (
                 <div
                   key={`${pub}-${index}`}
@@ -109,13 +152,14 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
                 >
                   <p
                     className={`font-bold text-yellow-300 transition-all duration-300 ${
-                      isMiddleItem && !isSpinning ? 'scale-110' : ''
+                      isMiddleItem && !isSpinning ? "scale-110" : ""
                     }`}
                     style={{
-                      fontSize: '2.5rem',
-                      textShadow: isMiddleItem && !isSpinning
-                        ? '0 0 30px rgba(250,204,21,1), 0 0 60px rgba(250,204,21,0.5)'
-                        : '0 0 10px rgba(250,204,21,0.5)',
+                      fontSize: "2.5rem",
+                      textShadow:
+                        isMiddleItem && !isSpinning
+                          ? "0 0 30px rgba(250,204,21,1), 0 0 60px rgba(250,204,21,0.5)"
+                          : "0 0 10px rgba(250,204,21,0.5)",
                       opacity: 0.9,
                     }}
                   >
@@ -133,9 +177,7 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
             <div
               key={i}
               className={`w-3 h-3 rounded-full ${
-                isSpinning
-                  ? 'bg-yellow-400 animate-pulse'
-                  : 'bg-yellow-600/50'
+                isSpinning ? "bg-yellow-400 animate-pulse" : "bg-yellow-600/50"
               }`}
               style={{
                 animationDelay: `${i * 0.1}s`,
@@ -143,15 +185,6 @@ export function CasinoWheel({ options, onSpinComplete, spinTrigger }: CasinoWhee
             />
           ))}
         </div>
-
-        {/* Spinning indicator */}
-        {isSpinning && (
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 pointer-events-none">
-            <div className="text-red-500 text-6xl animate-pulse drop-shadow-[0_0_20px_rgba(239,68,68,0.8)]">
-              🎰
-            </div>
-          </div>
-        )}
       </div>
 
       {/* Side decorations */}
