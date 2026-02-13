@@ -10,13 +10,17 @@ interface PubData {
   address: string;
 }
 
-// Function to check if a pub is open now
-function isOpenNow(openingHours: string | undefined): boolean {
-  if (!openingHours) return false;
+// Function to check if a pub is open tonight at 19:00
+function isOpenTonight(openingHours: string | undefined): boolean {
+  // If no opening hours data, assume it's open (keep it in the list)
+  if (!openingHours) return true;
 
   const now = new Date();
-  const dayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
-  const currentTime = now.getHours() * 60 + now.getMinutes(); // Current time in minutes
+  const tonight = new Date(now);
+  tonight.setHours(19, 0, 0, 0); // Set to 19:00 (7 PM) tonight
+
+  const dayOfWeek = tonight.getDay(); // 0 = Sunday, 1 = Monday, etc.
+  const targetTime = 19 * 60; // 19:00 in minutes
 
   // Map day numbers to opening_hours format
   const dayMap = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
@@ -57,13 +61,8 @@ function isOpenNow(openingHours: string | undefined): boolean {
           closeTime += 24 * 60;
         }
 
-        // Check if current time is within opening hours
-        if (currentTime >= openTime && currentTime <= closeTime) {
-          return true;
-        }
-
-        // Handle case where we're past midnight but bar is still open
-        if (closeTime > 24 * 60 && currentTime < closeTime - 24 * 60) {
+        // Check if 19:00 is within opening hours
+        if (targetTime >= openTime && targetTime <= closeTime) {
           return true;
         }
       }
@@ -96,11 +95,7 @@ function isOpenNow(openingHours: string | undefined): boolean {
               closeTime += 24 * 60;
             }
 
-            if (currentTime >= openTime && currentTime <= closeTime) {
-              return true;
-            }
-
-            if (closeTime > 24 * 60 && currentTime < closeTime - 24 * 60) {
+            if (targetTime >= openTime && targetTime <= closeTime) {
               return true;
             }
           }
@@ -132,7 +127,7 @@ function formatAddress(tags: any): string {
   return parts.length > 0 ? parts.join(", ") : "Address not available";
 }
 
-// Extract pub data from the JSON and filter for open pubs
+// Extract pub data from the JSON and filter for pubs open tonight at 19:00
 const lyonPubsData: PubData[] = barsData.elements
   .filter((element: any) => {
     const name = element.tags?.name;
@@ -141,7 +136,7 @@ const lyonPubsData: PubData[] = barsData.elements
       name &&
       typeof name === "string" &&
       name.length > 0 &&
-      isOpenNow(openingHours)
+      isOpenTonight(openingHours)
     );
   })
   .map((element: any) => ({
@@ -240,7 +235,7 @@ export default function App() {
 
         <div className="mt-8 text-center">
           <p className="text-yellow-200 text-lg">
-            Featuring {lyonPubs.length} pubs open right now in Lyon
+            Featuring {lyonPubs.length} pubs open tonight at 7 PM in Lyon
           </p>
         </div>
       </div>
