@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "vite build --outDir build",
     "dev": "vite",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build --outDir build && gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
