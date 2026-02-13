@@ -211,22 +211,24 @@ export default function App() {
           </Button>
 
           {selectedPub && !isSpinning && (
-            <div className="text-center space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-700 bg-gradient-to-b from-yellow-400 to-yellow-500 rounded-3xl p-8 shadow-2xl border-4 border-yellow-600">
+            <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-700 bg-gradient-to-b from-yellow-400 to-yellow-500 rounded-3xl p-8 shadow-2xl border-4 border-yellow-600 flex flex-col items-center justify-center gap-4">
               <div className="flex items-center justify-center gap-3">
                 <Sparkles className="w-10 h-10 text-red-600 animate-pulse" />
                 <h2 className="text-4xl text-gray-900">🎉 GAGNANT! 🎉</h2>
                 <Sparkles className="w-10 h-10 text-red-600 animate-pulse" />
               </div>
-              <p className="text-3xl text-gray-900">Ce soir, on va au:</p>
-              <p className="text-5xl text-red-700 drop-shadow-lg">
+              <p className="text-3xl text-gray-900 text-center">
+                Ce soir, on va au:
+              </p>
+              <p className="text-5xl text-red-700 drop-shadow-lg text-center break-words">
                 {selectedPub.name}
               </p>
               {selectedPub.address !== "Address not available" && (
-                <p className="text-2xl text-gray-800">
+                <p className="text-2xl text-gray-800 text-center">
                   📍 {selectedPub.address}
                 </p>
               )}
-              <p className="text-2xl text-gray-800">
+              <p className="text-2xl text-gray-800 text-center">
                 🍺 Amuse-toi avec modération! 🍺
               </p>
             </div>

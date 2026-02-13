@@ -115,7 +115,7 @@ export function CasinoWheel({
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-yellow-500/5 to-transparent pointer-events-none z-10"></div>
 
           {/* Selection indicator - red box in the middle */}
-          <div className="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-[120px] border-4 border-red-500 bg-red-500/10 z-10 pointer-events-none rounded-lg"></div>
+          <div className="absolute left-0 right-0 top-1/2-custom -translate-y-1/2 h-[120px] border-4 border-red-500 bg-red-500/10 z-10 pointer-events-none rounded-lg"></div>
 
           {/* Top fade mask */}
           <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-black to-transparent z-20 pointer-events-none"></div>
@@ -188,8 +188,8 @@ export function CasinoWheel({
       </div>
 
       {/* Side decorations */}
-      <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-40 bg-gradient-to-r from-red-600 to-red-700 rounded-l-full shadow-lg"></div>
-      <div className="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-40 bg-gradient-to-l from-red-600 to-red-700 rounded-r-full shadow-lg"></div>
+      <div className="absolute -left-4 top-1/2-custom -translate-y-1/2 w-8 h-40 bg-gradient-to-r from-red-600 to-red-700 rounded-l-full shadow-lg"></div>
+      <div className="absolute -right-4 top-1/2-custom -translate-y-1/2 w-8 h-40 bg-gradient-to-l from-red-600 to-red-700 rounded-r-full shadow-lg"></div>
     </div>
   );
 }

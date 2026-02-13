@@ -1,3 +1,10 @@
-@import './fonts.css';
-@import './tailwind.css';
-@import './theme.css';
+@import "./fonts.css";
+@import "./tailwind.css";
+
+@layer utilities {
+  .top-1\/2-custom {
+    top: calc(1 / 2 * 115%);
+  }
+}
+
+@import "./theme.css";
